@@ -1,7 +1,7 @@
 {
 "author":"Saighty",
-"displayName":"Tharris world (old)",
-"description":"Welcome to tharris!\nOld version",
+"displayName":"Tharris world",
+"description":"Welcome to tharris! Try this new planet in campaign\nIm doing remake to mod",
 "minGameVersion":"146",
 "name":"TharrisMod"
 
@@ -11,4 +11,5 @@
       "*": 0  // Звездочка = все ресурсы без ограничений
     }
   }
+
 }
