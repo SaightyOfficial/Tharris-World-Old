@@ -1,0 +1,18 @@
+name: OsmiumWall
+localizedName: Osmium wall
+type: Wall
+category: defense
+size: 1
+health: 400
+
+requirements: [
+    Osmium/6
+]
+
+research: {
+    parent: IronWallLarge
+    planet: Tharris
+    requirements: [
+        Osmium/250
+    ]
+  } 

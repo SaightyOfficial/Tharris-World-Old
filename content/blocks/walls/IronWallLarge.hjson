@@ -1,0 +1,18 @@
+name: IronWallLarge
+localizedName: Large iron wall
+type: Wall
+category: defense
+size: 2
+health: 800
+
+requirements: [
+    Iron/24
+]
+
+research: {
+    parent: IronWall
+    planet: Tharris
+    requirements: [
+        Iron/750
+    ]
+  } 
