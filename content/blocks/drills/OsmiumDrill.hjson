@@ -1,0 +1,56 @@
+ type: Drill
+  name: OsmiumDrill
+  localizedName: Osmium Drill
+  size: 3
+  tier: 4     //Бурит предмет такой прочности
+  drillTime: 200      //Время бурения
+  itemCapacity: 30      //Сколько предметов вмещает
+  rotateSpeed: 3      //Скорость вращения части rotator
+  warmupSpeed: 0.05
+  liquidBoostIntensity: 1.2     //Интенсивность ускорения жидкостью
+  liquidCapacity: 10       //Сколько вмещает жидкостей
+
+  hasPower: true
+  //Что потребляет
+  consumes: {
+    power: 1
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+  upgrade: {
+    effects: {
+      drillSpeed: 1.2
+    }
+  }
+  //Стоимость постройки
+  requirements: [
+    Iron/75
+    Osmium/35
+    silicon/35
+    PhasePlastic/15
+  ]
+  //Категория, здоровье, скорость, к чему прикрепленно
+  category: production
+  health: 120
+  speed: 0.12
+  research: {
+      parent: IronDrill
+      planet: Tharris
+      requirements: [
+    Iron/7500
+    Osmium/3500
+    silicon/3500
+    PhasePlastic/1500
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+    ]
+}

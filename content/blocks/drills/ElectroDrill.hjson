@@ -1,0 +1,55 @@
+ type: Drill
+  name: ElectroDrill
+  localizedName: Electro Drill
+  size: 3
+  tier: 3     //Бурит предмет такой прочности
+  drillTime: 180      //Время бурения
+  itemCapacity: 30      //Сколько предметов вмещает
+  rotateSpeed: 3      //Скорость вращения части rotator
+  warmupSpeed: 0.05
+  liquidBoostIntensity: 1.2     //Интенсивность ускорения жидкостью
+  liquidCapacity: 10       //Сколько вмещает жидкостей
+
+  hasPower: true
+  //Что потребляет
+  consumes: {
+    power: 0.5
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+  upgrade: {
+    effects: {
+      drillSpeed: 1.2
+    }
+  }
+  //Стоимость постройки
+  requirements: [
+    Iron/50
+    lead/35
+    silicon/25
+  ]
+  //Категория, здоровье, скорость, к чему прикрепленно
+  category: production
+  health: 120
+  speed: 0.12
+  research: {
+      parent: IronDrill
+      planet: Tharris
+      requirements: [
+    Iron/5000
+    lead/6000
+    silicon/2500
+    graphite/3000
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+    ]
+}
