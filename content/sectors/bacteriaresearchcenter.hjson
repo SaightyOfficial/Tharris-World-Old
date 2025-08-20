@@ -1,0 +1,24 @@
+name: bacteriaresearchcenter
+localizedName: Bacteria research center
+description: Research biomass cultivator and biomass press to make oil
+captureWave: 30
+difficulty: 5
+addStartingItems: false
+startWaveTimeMultiplier: 3
+useAI: true
+showSectorLandInfo: true
+planet: Tharris
+sector: 199
+
+research: {
+    root: false
+    name: Bacteria research center
+    parent: lonelylake
+    planet: Tharris
+    objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+    ]
+}

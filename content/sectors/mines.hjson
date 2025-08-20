@@ -1,0 +1,24 @@
+{
+  localizedName: Mines
+  description: There are many resources. Destroy all enemy cores to capture this sector.
+  planet: Tharris  
+  sector: 128
+  name: mines
+
+  difficulty: 3
+  startWaveTimeMultiplier: 3
+  useAI: true
+  addStartingItems: false
+
+  research: {
+    root: false
+    name: Mines
+    parent: greatpassage
+    objectives: [
+      {
+        type: SectorComplete
+        preset: greatpassage
+      } 
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+name: weatheredearth
+localizedName: Weathered earth
+description: Research new material - osmium, and all thing that are made of it
+captureWave: 35
+difficulty: 5
+addStartingItems: false
+startWaveTimeMultiplier: 3
+useAI: true
+showSectorLandInfo: true
+planet: Tharris
+sector: 91
+
+research: {
+    root: false
+    name: Bacteria research center
+    parent: lonelylake
+    planet: Tharris
+    objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+    ]
+}

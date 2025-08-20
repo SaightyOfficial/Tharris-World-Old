@@ -1,0 +1,24 @@
+name: linear
+localizedName: Linear
+description: Capture sector to research T3, this sector has realy powerful boss, make good defence
+captureWave: 40
+difficulty: 9
+addStartingItems: false
+startWaveTimeMultiplier: 3
+useAI: true
+showSectorLandInfo: true
+planet: Tharris
+sector: 230
+
+research: {
+    root: false
+    name: Linear
+    parent: base009
+    planet: Tharris
+    objectives: [
+      {
+        type: SectorComplete
+        preset: base009
+      } 
+    ]
+}

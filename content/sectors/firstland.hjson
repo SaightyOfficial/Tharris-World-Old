@@ -1,0 +1,20 @@
+name: firstlanding
+localizedName: First landing
+description: Journey begins here. Collect iron and lead, learn graphite
+captureWave: 10
+difficulty: 1
+alwaysUnlocked: true
+addStartingItems: false
+startWaveTimeMultiplier: 3
+useAI: true
+showSectorLandInfo: true
+planet: Tharris
+name: firstland
+sector: 1
+
+research: {
+    root: false
+    name: First landing
+    parent: CoreQuark
+    planet: Tharris
+}

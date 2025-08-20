@@ -1,0 +1,24 @@
+{
+  localizedName: Stone plains
+  description: There is an enemy base here, explore the T2 reconstructor
+  planet: Tharris  
+  sector: 123
+  name: stoneplains
+
+  difficulty: 5
+  startWaveTimeMultiplier: 3
+  useAI: true
+  addStartingItems: false
+
+  research: {
+    root: false
+    name: Stone plains
+    parent: crater
+    objectives: [
+      {
+        type: SectorComplete
+        preset: crater
+      } 
+    ]
+  }
+}
