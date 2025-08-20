@@ -46,11 +46,6 @@
     Osmium/5000
     PhasePlastic/3500
   ]
-    objectives: [
-            {
-              type: SectorComplete
-              preset: nullscapes
-            } 
-          ]
   }
+
 }
