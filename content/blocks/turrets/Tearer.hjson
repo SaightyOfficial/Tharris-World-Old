@@ -34,7 +34,7 @@ shootEffect: {
 }
 health: 450
 category: turret
-reload: 8                  //Перезарядка
+reload: 6                  //Перезарядка
 //Виды пуль (боеприпасов)
 "ammoTypes": {
     "PhasePlastic": {
@@ -48,6 +48,7 @@ reload: 8                  //Перезарядка
                     damage: 22
                     backColor: ff6600
                     bulletInterval: 3
+                    ammoMultiplier:8
                    }
     "TemperedGlass": {
                     type: MissleBulletType
@@ -58,8 +59,10 @@ reload: 8                  //Перезарядка
                     despawnEffect: none
                     frontColor: fdfdfd
                     damage: 13
+                    ammoMultiplier:6
                     backColor: ff6600
                     bulletInterval: 3
                    }
 }
+
 shootSound: blaster
