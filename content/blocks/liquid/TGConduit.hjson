@@ -1,0 +1,31 @@
+{
+  name: TGConduit
+  localizedName: Conduit
+  type: Conduit
+  health: 45
+  size: 1
+  category: liquid
+
+  liquidCapacity: 10
+  liquidPressure: 1.0
+  rotate: true
+  floating: true
+
+  junctionReplacement: TGLiquidJunction
+  bridgeReplacement: TGLiquidBridge
+
+  // Требования для постройки
+  requirements: [
+    TemperedGlass/1,
+    graphite/1
+  ]
+
+  // Исследование (как у базовой трубы)
+  research: {
+    parent: AutomaticPump
+    requirements: [
+      TemperedGlass/50
+      graphite/100
+    ]
+  }
+}

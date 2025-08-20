@@ -1,0 +1,28 @@
+{
+  name: AutomaticPump
+  localizedName: Automatic pump
+  type: Pump
+  health: 100
+  size: 1
+  category: liquid
+
+  pumpAmount: 0.2
+  liquidCapacity: 10        // Вместимость
+
+  // Требования для постройки
+  requirements: [
+    TemperedGlass/25
+    Iron/10
+    graphite/15
+  ]
+
+  // Исследование
+  research: {
+    parent: GlassKiln
+    requirements: [
+      Iron/500
+      TemperedGlass/200
+      graphite/150
+    ]
+  }
+}

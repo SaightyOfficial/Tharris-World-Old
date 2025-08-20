@@ -1,0 +1,21 @@
+{
+  name: TGLiquidJunction
+  localizedName: Liquid Junction
+  type: LiquidJunction
+  health: 90
+  size: 1
+  category: liquid
+  liquidCapacity: 30
+  liquidPressure: 1.0
+  requirements: [
+    TemperedGlass/5
+    graphite/5
+  ]
+  research: {
+    parent: TGConduit
+    requirements: [
+      TemperedGlass/200
+      graphite/150
+    ]
+  }
+}
