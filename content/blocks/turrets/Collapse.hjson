@@ -45,13 +45,3 @@ requirements: [
   Osmium/90
   silicon/100
 ]
-
-research: {
-    parent: Lance
-    requirements: [
-      Iron/8500
-      lead/7500
-      graphite/4500
-      Osmium/760
-    ]
-}
