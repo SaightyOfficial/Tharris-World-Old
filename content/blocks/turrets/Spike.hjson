@@ -1,0 +1,53 @@
+type: PowerTurret
+
+Name: Spike
+localizedName: Spike
+
+size: 1
+health: 200
+range: 75
+rotateSpeed: 5
+reload: 30
+burstSpacing: 1
+shots: 1
+xRand: 1
+targetAir:false
+targetGround: true
+consumes: {
+  power: 1
+}
+recoilAmount: 3
+
+shootSound: bolt
+
+shootType: {
+        type: SapBulletType
+	damage: 22
+	length: 80
+	collidesGround: true
+        collidesAir: false
+        collidesBuildings: false
+        }
+
+category: turret
+
+requirements: [
+  Iron/50
+  lead/30
+  graphite/20
+]
+
+research: {
+    parent: Pike
+    requirements: [
+      Iron/1500
+      lead/750
+      graphite/450
+    ]
+    objectives: [
+      {
+        type: SectorComplete
+        preset: stoneplains
+      } 
+   ]
+}

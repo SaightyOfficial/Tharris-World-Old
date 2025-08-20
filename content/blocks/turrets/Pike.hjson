@@ -1,0 +1,61 @@
+type: PowerTurret
+
+Name: Pike
+localizedName: Pike
+
+size: 1
+health: 200
+range: 160
+rotateSpeed: 5
+reload: 75
+burstSpacing: 1
+shots: 1
+xRand: 1
+consumes: {
+  power: 1
+}
+recoilAmount: 3
+
+shootSound: bolt
+
+shootType: {
+            "type": "shrapnelBulletType",
+            "lifetime": 19,
+            "damage": 23,
+            serrations: 4
+            serrationSpacing: 16
+            serrationLenScl: 20
+            serrationWidth: 5
+            hitLarge: true
+            "fromColor": "abb3b3",
+            "toColor": "e8eded",
+            "length": 100,
+            "width": 8,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+
+category: turret
+
+requirements: [
+  Iron/50
+  lead/30
+  graphite/20
+]
+
+research: {
+    parent: Uno
+    requirements: [
+      Iron/1500
+      lead/750
+      graphite/450
+    ]
+    objectives: [
+      {
+        type: SectorComplete
+        preset: greatpassage
+      } 
+   ]
+}

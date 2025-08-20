@@ -1,0 +1,56 @@
+type: PowerTurret
+
+Name: Lance
+localizedName: Lance
+
+size: 2
+health: 400
+range: 160
+rotateSpeed: 5
+reload: 90
+burstSpacing: 1
+shots: 1
+xRand: 1
+consumes: {
+  power: 1
+}
+recoilAmount: 3
+
+shootSound: railgun
+
+shootType: {
+            "type": "shrapnelBulletType",
+            "lifetime": 19,
+            "damage": 50,
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 20
+            serrationWidth: 5
+            hitLarge: true
+            "fromColor": "abb3b3",
+            "toColor": "e8eded",
+            "length": 140,
+            "width": 8,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+
+category: turret
+
+requirements: [
+  Iron/65
+  Osmium/40
+  silicon/20
+]
+
+research: {
+    parent: Pike
+    requirements: [
+      Iron/8500
+      lead/7500
+      graphite/4500
+      Osmium/760
+    ]
+}

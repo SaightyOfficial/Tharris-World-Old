@@ -1,0 +1,83 @@
+name: extirpator
+localizedName: Extirpator
+size:3
+requirements: [
+Iron/150
+silicon/35
+Osmium/40
+PhasePlastic/50
+]
+research: {
+    parent: Fuse
+    planet: Tharris
+    requirements: [
+        Iron/7500
+        silicon/5000
+        Osmium/2000
+        PhasePlastic/1000
+    ]
+    objectives: [
+      {
+        type: SectorComplete
+        preset: nullscapes
+      } 
+    ]
+
+}
+
+//Тип, радиус атаки, эффект стрельбы
+type: ItemTurret
+range: 340
+maxAmmo: 30
+inaccuracy: 1
+shootEffect: {
+        type: Particle Effect
+        particles: 10
+        lifetime: 20
+        sizeFrom: 2
+        colorFrom: 505050
+        sizeTo: 0
+}
+health: 575
+category: turret
+reload: 120                  //Перезарядка
+//Виды пуль (боеприпасов)
+"ammoTypes": {
+    "PhasePlastic": {
+                    type: MissleBulletType
+                    lifetime: 45
+                    speed: 8
+                    sprite: bullet
+                    hitEffect: none
+                    despawnEffect: none
+                    frontColor: fdfdfd
+                    damage: 150
+                    backColor: ff6600
+                    bulletInterval: 3
+                   }
+    "Plutonium": {
+                    type: MissleBulletType
+                    lifetime: 45
+                    speed: 8
+                    sprite: bullet
+                    hitEffect: none
+                    despawnEffect: none
+                    frontColor: fdfdfd
+                    damage: 100
+                    backColor: ff6600
+                    bulletInterval: 3
+                   }
+    "silicon": {
+                    type: MissleBulletType
+                    lifetime: 45
+                    speed: 8
+                    sprite: bullet
+                    hitEffect: none
+                    despawnEffect: none
+                    frontColor: fdfdfd
+                    damage: 100
+                    backColor: ff6600
+                    bulletInterval: 3
+                   }
+}
+shootSound: cannon

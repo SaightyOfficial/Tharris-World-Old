@@ -1,0 +1,80 @@
+name: TidalWave
+localizedName: Tidal wave
+size: 2
+requirements: [
+        Iron/65
+        lead/85
+        TemperedGlass/75
+        silicon/65
+]
+research: {
+    parent: Fuse
+    planet: Tharris
+    requirements: [
+        Iron/6500
+        lead/8500
+        TemperedGlass/7500
+        silicon/6750
+]
+objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+    ]
+}
+
+//Тип, радиус атаки, эффект стрельбы
+type: LiquidTurret
+range: 130
+shootEffect: {
+        type: Particle Effect
+        particles: 5
+        lifetime: 35
+        sizeFrom: 4
+        colorFrom: 505050
+        sizeTo: 0
+}
+health: 150
+category: turret
+inaccuracy: 8 // разброс
+reload: 4                  //Перезарядка
+//Виды пуль (боеприпасов)
+"ammoTypes": {
+    "water": {
+                    type: LiquidBulletType
+                    lifetime: 100
+                    liquid:water
+                    speed: 2
+                    hitEffect: none
+                    damage: 2
+                    bulletInterval: 3.2
+                   }
+    "oil": {
+                    type: LiquidBulletType
+                    lifetime: 100
+                    liquid:water
+                    speed: 2
+                    hitEffect: none
+                    damage: 3
+                    bulletInterval: 3.2
+                   }
+    "slag": {
+                    type: LiquidBulletType
+                    lifetime: 100
+                    liquid:water
+                    speed: 2
+                    hitEffect: melting
+                    damage: 7
+                    bulletInterval: 3.2
+                   }
+    "cryofluid": {
+                    type: LiquidBulletType
+                    lifetime: 100
+                    liquid:water
+                    speed: 5
+                    hitEffect: freezing
+                    damage: 7
+                    bulletInterval: 3.2
+                   }
+}

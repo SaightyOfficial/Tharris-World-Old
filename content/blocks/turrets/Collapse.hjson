@@ -1,0 +1,57 @@
+type: PowerTurret
+
+Name: Collapse
+localizedName: Collapse
+
+size: 3
+health: 800
+range: 300
+rotateSpeed: 5
+reload: 240
+burstSpacing: 1
+shots: 1
+xRand: 1
+consumes: {
+  power: 20
+}
+recoilAmount: 12
+
+shootSound: railgun
+
+shootType: {
+            "type": "shrapnelBulletType",
+            "lifetime": 19,
+            "damage": 450,
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 20
+            serrationWidth: 5
+            hitLarge: true
+            "fromColor": "abb3b3",
+            "toColor": "e8eded",
+            "length": 320,
+            "width": 16,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+
+category: turret
+
+requirements: [
+  Iron/95
+  lead/75
+  Osmium/90
+  silicon/100
+]
+
+research: {
+    parent: Lance
+    requirements: [
+      Iron/8500
+      lead/7500
+      graphite/4500
+      Osmium/760
+    ]
+}

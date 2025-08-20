@@ -1,0 +1,73 @@
+name: Slingshot
+localizedName: Slingshot
+size:2
+requirements: [
+Iron/120
+lead/75
+graphite/10
+]
+research: {
+    parent: Uno
+    planet: Tharris
+    requirements: [
+        Iron/1000
+        lead/700
+        graphite/400
+    ]
+
+}
+
+//Тип, радиус атаки, эффект стрельбы
+type: ItemTurret
+
+targetAir:true
+targetGround:false
+
+range: 250
+maxAmmo: 70
+inaccuracy: 1
+shootEffect: {
+        type: Particle Effect
+        particles: 10
+        lifetime: 20
+        sizeFrom: 2
+        colorFrom: 505050
+        sizeTo: 0
+}
+health: 450
+category: turret
+reload: 30                  //Перезарядка
+//Виды пуль (боеприпасов)
+"ammoTypes": {
+    "lead": {
+                    type: MissleBulletType
+                    lifetime: 50
+                    speed: 5
+                    sprite: bullet
+                    hitEffect: none
+                    despawnEffect: none
+                    frontColor: fdfdfd
+                    damage: 30
+                    backColor: ff6600
+                    bulletInterval: 3
+                    collidesGround: false
+                    collidesAir: true
+                    collidesBuildings: false
+                   }
+    "graphite": {
+                    type: MissleBulletType
+                    lifetime: 50
+                    speed: 5
+                    sprite: bullet
+                    hitEffect: none
+                    despawnEffect: none
+                    frontColor: fdfdfd
+                    damage: 45
+                    backColor: ff6600
+                    bulletInterval: 3
+                    collidesGround: false
+                    collidesAir: true
+                    collidesBuildings: false
+                   }
+}
+shootSound: blaster
