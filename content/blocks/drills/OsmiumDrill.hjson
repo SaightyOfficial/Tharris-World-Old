@@ -3,7 +3,7 @@
   localizedName: Osmium Drill
   size: 3
   tier: 4     //Бурит предмет такой прочности
-  drillTime: 200      //Время бурения
+  drillTime: 165      //Время бурения
   itemCapacity: 30      //Сколько предметов вмещает
   rotateSpeed: 3      //Скорость вращения части rotator
   warmupSpeed: 0.05
@@ -53,4 +53,5 @@
         preset: lonelylake
       } 
     ]
+
 }
