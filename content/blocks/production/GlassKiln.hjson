@@ -1,0 +1,61 @@
+name: Glass kiln
+type: GenericCrafter
+health: 300
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 90  
+outputItem: TemperedGlass/1
+craftEffect: smeltsmoke
+flameColor: ffbb00
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawFade
+   suffix: "-flame"
+   alpha: 0.9
+   heatProgress: true
+  }
+ ]
+}
+
+
+consumes: {
+  power: 0.7       
+  items: {          
+    items: [
+      Iron/1
+      sand/1
+    ]
+  }
+}
+
+requirements: [
+  Iron/75
+  lead/55
+  graphite/20
+  silicon/10
+]
+
+
+category: crafting,
+research: {
+  parent: GraphiteCompressor
+  planet: Tharris
+  requirements: [
+      Iron/2000
+      lead/1300
+      graphite/1000
+      silicon/750
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: crater
+      } 
+  ]
+}

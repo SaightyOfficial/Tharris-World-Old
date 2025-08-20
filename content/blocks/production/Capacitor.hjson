@@ -1,0 +1,60 @@
+name: Capacitor
+type: GenericCrafter
+description: Collects small amount water from air
+health: 400
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 20
+craftTime: 60 
+outputLiquid: water/0.2
+craftEffect: smeltsmoke
+flameColor: ffbb00
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawFade
+   suffix: "-water"
+   alpha: 0.7
+   heatProgress: true
+  }
+  {
+   type: DrawRegion
+   suffix: "-top"
+  }
+ ]
+}
+
+
+consumes: {
+  power: 2
+}
+
+requirements: [
+  Iron/30
+  graphite/30
+  TemperedGlass/30
+]
+
+
+category: crafting,
+research: {
+  parent: AutomaticPump
+  planet: Tharris
+  requirements: [
+      Iron/4000
+      lead/3000
+      graphite/2000
+      TemperedGlass/2500
+      silicon/1750
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+  ]
+}

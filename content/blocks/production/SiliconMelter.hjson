@@ -1,0 +1,59 @@
+name: Silicon melter
+type: GenericCrafter
+health: 400
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 90  
+outputItem: silicon/2
+craftEffect: smeltsmoke
+flameColor: ffbb00
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawFade
+   suffix: "-flame"
+   alpha: 0.9
+   heatProgress: true
+  }
+ ]
+}
+
+
+consumes: {
+  power: 0.7       
+  items: {          
+    items: [
+      graphite/1
+      sand/1
+    ]
+  }
+}
+
+requirements: [
+  Iron/65
+  lead/40
+  graphite/35
+]
+
+
+category: crafting,
+research: {
+  parent: GraphiteCompressor
+  planet: Tharris
+  requirements: [
+      Iron/400
+      lead/300
+      graphite/200
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: mines
+      } 
+  ]
+}

@@ -1,0 +1,48 @@
+name: Graphite press
+type: GenericCrafter
+description: Better graphite press, to clear coal uses water instead of sand
+health: 300
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60  
+outputItem: graphite/1
+craftEffect: smeltsmoke
+consumes: {
+  power: 1      
+  items: {          
+    items: [
+      coal/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+requirements: [
+  Iron/70
+  lead/35
+  TemperedGlass/20
+  graphite/30
+  silicon/20
+]
+category: crafting,
+research: {
+  parent: SiliconMelter
+  planet: Tharris
+  requirements: [
+      Iron/4000
+      lead/3000
+      graphite/5000
+      silicon/3500
+      TemperedGlass/1500
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: lonelylake
+      } 
+  ]
+}

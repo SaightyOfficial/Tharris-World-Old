@@ -1,0 +1,60 @@
+name: BiomassCultivator
+localizedName: Biomass cultivator
+type: GenericCrafter
+description: Cultivates biomass from water and energy
+health: 250
+size: 2
+hasPower: false
+hasItems: true
+itemCapacity: 20
+craftTime: 120
+outputItem: Biomass/1
+consumes: {
+  power: 1
+  liquid: {
+    liquid: water
+    amount: 0.3
+  }
+}
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawFade
+   suffix: "-spore"
+   alpha: 0.7
+   heatProgress: true
+  }
+  {
+   type: DrawRegion
+   suffix: "-top"
+  }
+ ]
+}
+
+requirements: [
+  Iron/90
+  lead/50
+  graphite/50
+  TemperedGlass/20
+]
+category: crafting,
+research: {
+  parent: GraphiteCompressor
+  planet: Tharris
+  requirements: [
+      Iron/4000
+      lead/3000
+      graphite/5000
+      silicon/3500
+      TemperedGlass/1500
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: bacteriaresearchcenter
+      } 
+  ]
+}
