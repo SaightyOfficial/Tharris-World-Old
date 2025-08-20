@@ -1,0 +1,45 @@
+name: OsmiumBattery
+localizedName: Osmium Battery
+
+type: battery
+size: 2
+	"fullLightColor": "79F2EEFF",
+	"emptyLightColor": "565666FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+     type: drawFade
+     suffix: "-top"
+     alpha: 0.7
+     heatProgress: true
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 25000
+}
+category: power
+requirements: [
+  Iron/100
+  lead/80
+  graphite/35
+  Osmium/20
+]
+research: {
+    parent: IronBattery
+    requirements: [
+      Iron/11000
+      lead/8500
+      graphite/6500
+      Osmium/3000
+    ]
+}

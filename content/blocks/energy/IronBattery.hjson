@@ -1,0 +1,49 @@
+name: IronBattery
+localizedName: Iron Battery
+
+type: battery
+size: 1
+	"fullLightColor": "79F2EEFF",
+	"emptyLightColor": "565666FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+     type: drawFade
+     suffix: "-top"
+     alpha: 0.7
+     heatProgress: true
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 3000
+}
+category: power
+requirements: [
+  Iron/50
+  lead/40
+  graphite/35
+]
+research: {
+    parent: IronPowerNode
+    requirements: [
+      Iron/1100
+      lead/850
+      graphite/650
+    ]
+    objectives: [
+      {
+        type: SectorComplete
+        preset: greatpassage
+      } 
+    ]
+}

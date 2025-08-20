@@ -1,0 +1,49 @@
+{
+  name: Plutonium generator
+  type: ConsumeGenerator
+  health: 120
+  size: 3
+  powerProduction: 18  // Мощность (в 1.5 раза выше стандартного Combustion Generator)
+  itemDuration: 120     // 1 уголь = 120 кадров работы (2 секунды)
+  hasItems: true
+  hasLiquids: false
+  flameColor: ffbb00    // Оранжевый цвет пламени
+
+  consumes: {
+    items: {
+      items: [
+        Plutonium/1          // Потребляет 1 уголь каждые 2 секунды
+      ]
+    }
+    liquid: {
+     liquid: water
+     amount: 1
+    }
+  }
+
+  requirements: [
+    Iron/150
+    graphite/30
+    Osmium/55
+    silicon/60
+    TemperedGlass/40
+  ]
+
+  category: power
+  research: {
+    parent: SteamGenerator
+    requirements: [
+    Iron/8500
+    graphite/3000
+    Osmium/5500
+    silicon/6000
+    TemperedGlass/4000
+  ]
+    objectives: [
+            {
+              type: SectorComplete
+              preset: nullscapes
+            } 
+          ]
+  }
+}

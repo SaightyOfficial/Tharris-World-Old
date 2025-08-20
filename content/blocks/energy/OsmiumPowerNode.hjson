@@ -1,0 +1,24 @@
+{
+  name: Osmium power node
+  type: PowerNode
+  size: 1
+  health: 120
+  maxNodes: 20           // Макс. количество соединений
+  laserRange: 20         // Дальность передачи энергии
+  laserColor: 84f491     // Цвет лазера (HEX)
+  laserWidth: 1.5
+  requirements: [
+    Osmium/10
+    lead/10
+    graphite/2
+  ]
+  category: power
+  research: {
+    parent: IronPowerNode
+    requirements: [
+      Osmium/200
+      lead/150
+      graphite/40
+    ]
+  }
+}

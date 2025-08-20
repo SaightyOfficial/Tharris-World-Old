@@ -1,0 +1,24 @@
+{
+  name: Iron power node
+  type: PowerNode
+  size: 1
+  health: 120
+  maxNodes: 10           // Макс. количество соединений
+  laserRange: 10         // Дальность передачи энергии
+  laserColor: 84f491     // Цвет лазера (HEX)
+  laserWidth: 1.5
+  requirements: [
+    Iron/10
+    lead/5
+    graphite/2
+  ]
+  category: power
+  research: {
+    parent: CoalThermalGenerator
+    requirements: [
+      Iron/200
+      lead/150
+      graphite/40
+    ]
+  }
+}

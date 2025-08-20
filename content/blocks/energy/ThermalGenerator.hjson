@@ -1,0 +1,23 @@
+name: Thermal generator  
+type: ThermalGenerator  
+description: Thermal generator that produces power using heat sources.
+health: 300  
+size: 2  
+powerProduction: 0.5
+attribute: heat  
+requirements: [  
+  Iron/100 
+  lead/80 
+  graphite/50  
+  silicon/25
+]  
+category: power  
+research: {  
+  parent: CoalThermalGenerator
+  requirements: [  
+    silicon/100
+    Iron/400
+    lead/320
+    graphite/200 
+  ]  
+}

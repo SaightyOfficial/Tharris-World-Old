@@ -1,0 +1,59 @@
+{
+  name: Steam generator
+  type: ConsumeGenerator
+  health: 500
+  size: 2
+  powerProduction: 5.5  // Мощность (в 1.5 раза выше стандартного Combustion Generator)
+  itemDuration: 120     // 1 уголь = 120 кадров работы (2 секунды)
+  hasItems: true
+  hasLiquids: false
+  flameColor: ffbb00    // Оранжевый цвет пламени
+
+  drawer: {
+   type:DrawMulti 
+   drawers: [
+    DrawDefault
+    {
+     type: drawFade
+     suffix: "-heat"
+     alpha: 0.9
+     heatProgress: true
+    }
+   ]
+  }
+
+  consumes: {
+    items: {
+      items: [
+        coal/1          // Потребляет 1 уголь каждые 2 секунды
+      ]
+    }
+    liquid: {
+     liquid: water
+     amount: 0.3
+    }
+  }
+
+  requirements: [
+    Iron/65
+    graphite/30
+    silicon/40
+    TemperedGlass/20
+  ]
+
+  category: power
+  research: {
+    parent: ThermalGenerator
+    requirements: [
+      graphite/80
+      Iron/150
+      lead/100
+    ]
+    objectives: [
+            {
+              type: OnSector
+              preset: lonelylake
+            } 
+          ]
+  }
+}

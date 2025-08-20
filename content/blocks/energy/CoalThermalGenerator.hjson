@@ -1,0 +1,54 @@
+{
+  name: Coal thermal generator
+  type: ConsumeGenerator
+  health: 250
+  size: 1
+  powerProduction: 1  // Мощность (в 1.5 раза выше стандартного Combustion Generator)
+  itemDuration: 120     // 1 уголь = 120 кадров работы (2 секунды)
+  hasItems: true
+  hasLiquids: false
+  flameColor: ffbb00    // Оранжевый цвет пламени
+
+  drawer: {
+   type:DrawMulti 
+   drawers: [
+    DrawDefault
+    {
+     type: drawFade
+     suffix: "-heat"
+     alpha: 0.9
+     heatProgress: true
+    }
+   ]
+  }
+
+  consumes: {
+    items: {
+      items: [
+        coal/1          // Потребляет 1 уголь каждые 2 секунды
+      ]
+    }
+  }
+
+  requirements: [
+    Iron/30
+    lead/20
+    graphite/15
+  ]
+
+  category: power
+  research: {
+    parent: CoreQuark
+    requirements: [
+      graphite/80
+      Iron/150
+      lead/100
+    ]
+    objectives: [
+            {
+              type: SectorComplete
+              preset: greatpassage
+            } 
+          ]
+  }
+}

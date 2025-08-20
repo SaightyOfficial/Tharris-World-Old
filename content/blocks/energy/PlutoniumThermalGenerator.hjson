@@ -1,0 +1,56 @@
+{
+  name: Plutonium thermal generator
+  type: ConsumeGenerator
+  health: 500
+  size: 2
+  powerProduction: 2.5  // Мощность (в 1.5 раза выше стандартного Combustion Generator)
+  itemDuration: 600     // 1 уголь = 120 кадров работы (2 секунды)
+  hasItems: true
+  hasLiquids: false
+  flameColor: ffbb00    // Оранжевый цвет пламени
+
+  drawer: {
+   type:DrawMulti 
+   drawers: [
+    DrawDefault
+    {
+     type: drawFade
+     suffix: "-heat"
+     alpha: 0.9
+     heatProgress: true
+    }
+   ]
+  }
+
+  consumes: {
+    items: {
+      items: [
+        Plutonium/1          // Потребляет 1 уголь каждые 2 секунды
+      ]
+    }
+  }
+
+  requirements: [
+    Iron/125
+    silicon/75
+    Osmium/50
+    PhasePlastic/35
+  ]
+
+  category: power
+  research: {
+    parent: PlutoniumGenerator
+    requirements: [
+    Iron/9500
+    silicon/7500
+    Osmium/5000
+    PhasePlastic/3500
+  ]
+    objectives: [
+            {
+              type: SectorComplete
+              preset: nullscapes
+            } 
+          ]
+  }
+}
