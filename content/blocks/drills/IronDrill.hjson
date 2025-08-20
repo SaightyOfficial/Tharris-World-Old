@@ -2,7 +2,7 @@
   name: Iron drill
   size: 2
   tier: 2     //Бурит предмет такой прочности
-  drillTime: 240      //Время бурения
+  drillTime: 300      //Время бурения
   itemCapacity: 10      //Сколько предметов вмещает
   rotateSpeed: 3      //Скорость вращения части rotator
   warmupSpeed: 0.001
@@ -37,4 +37,5 @@
       requirements: [
           Iron/50
  ]
+
 }
