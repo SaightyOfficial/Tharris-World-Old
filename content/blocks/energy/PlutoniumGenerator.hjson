@@ -1,7 +1,7 @@
 {
   name: Plutonium generator
   type: ConsumeGenerator
-  health: 120
+  health: 550
   size: 3
   powerProduction: 18  // Мощность (в 1.5 раза выше стандартного Combustion Generator)
   itemDuration: 120     // 1 уголь = 120 кадров работы (2 секунды)
@@ -39,11 +39,6 @@
     silicon/6000
     TemperedGlass/4000
   ]
-    objectives: [
-            {
-              type: SectorComplete
-              preset: nullscapes
-            } 
-          ]
   }
+
 }
