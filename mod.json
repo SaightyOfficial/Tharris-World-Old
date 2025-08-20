@@ -1,0 +1,14 @@
+{
+"author":"Saighty",
+"displayName":"Tharris world (old)",
+"description":"Welcome to tharris!\nOld version",
+"minGameVersion":"146",
+"name":"TharrisMod"
+
+"defaultRules": {
+    "allowLaunchLoadout": true,
+    "loadoutItems": {
+      "*": 0  // Звездочка = все ресурсы без ограничений
+    }
+  }
+}
