@@ -1,0 +1,5 @@
+  variants: 2
+  itemDrop: Plutonium
+  name: Plutonium ore
+  type: OreBlock
+  tier: 4
