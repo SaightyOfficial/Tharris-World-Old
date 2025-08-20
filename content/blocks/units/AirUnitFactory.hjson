@@ -1,0 +1,45 @@
+name: Air unit factory
+type: UnitFactory
+health: 575
+size: 3
+configurable: true
+
+consumes: {
+  power: 4
+}
+
+plans: [
+  {
+    unit: Blitz
+    requirements: [
+      Iron/10
+      graphite/5
+    ]
+    time: 960
+  }
+  {
+    unit: Eryx
+    requirements: [
+      lead/15
+      silicon/10
+    ]
+    time: 1200
+  }
+]
+
+category: units
+
+requirements: [
+  Iron/100
+  lead/75
+  graphite/60
+]
+
+research: {
+  parent: GroundUnitFactory
+  requirements: [
+    Iron/500
+    lead/200
+    graphite/175
+  ]
+}

@@ -1,0 +1,52 @@
+localizedName: T3 Reconstructor
+Name: T3Reconstructor
+
+type: Reconstructor
+size: 5
+health: 1300
+constructTime: 3600
+liquidCapacity: 60
+
+consumes: {
+  power: 6
+    items: {
+      items: [
+        silicon/130
+        Osmium/100
+        TemperedGlass/80
+      ]
+    }
+}
+
+upgrades: [
+  [Sonicboom, Turbo]
+  [Juggernaut, Crusher]
+  [Syndine, Vortex]
+]
+
+requirements: [
+  Iron/750
+  lead/900
+  graphite/650
+  silicon/550
+  Osmium/450
+]
+
+category: units
+
+research: {
+  parent: T2Reconstructor
+  requirements: [
+  Iron/21250
+  lead/9500
+  graphite/8900
+  silicon/12200
+  Osmium/8750
+]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: linear
+      } 
+    ]
+}

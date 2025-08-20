@@ -1,0 +1,43 @@
+name: Ground unit factory
+type: UnitFactory
+health: 575
+size: 3
+configurable: true
+
+consumes: {
+  power: 4
+}
+
+plans: [
+  {
+    unit: Paragon
+    requirements: [
+      Iron/12
+      graphite/3
+    ]
+    time: 960
+  }
+]
+
+category: units
+
+requirements: [
+  Iron/100
+  lead/75
+  graphite/60
+]
+
+research: {
+  parent: CoreQuark
+  requirements: [
+    Iron/500
+    lead/200
+    graphite/175
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: greatpassage
+      } 
+    ]
+}

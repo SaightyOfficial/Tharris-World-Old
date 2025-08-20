@@ -1,0 +1,49 @@
+localizedName: T2 Reconstructor
+Name: T2Reconstructor
+
+type: Reconstructor
+size: 3
+health: 750
+constructTime: 1500
+liquidCapacity: 60
+
+consumes: {
+  power: 4
+    items: {
+      items: [
+        silicon/30
+        graphite/35
+      ]
+    }
+}
+
+upgrades: [
+  [Blitz, Sonicboom]
+  [Paragon, Juggernaut]
+  [Eryx, Syndine]
+]
+
+requirements: [
+  Iron/325
+  lead/250
+  graphite/190
+  silicon/120
+]
+
+category: units
+
+research: {
+  parent: GroundUnitFactory
+  requirements: [
+  Iron/3250
+  lead/2500
+  graphite/1900
+  silicon/1200
+]
+  objectives: [
+      {
+        type: OnSector
+        preset: stoneplains
+      } 
+    ]
+}
