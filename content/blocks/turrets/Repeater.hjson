@@ -33,7 +33,7 @@ targetGround:true
 
 range: 140
 maxAmmo: 150
-inaccuracy: 12
+inaccuracy: 8
 shootEffect: {
         type: Particle Effect
         particles: 10
@@ -99,3 +99,4 @@ reload: 8                  //Перезарядка
 }
 
 shootSound: blaster
+
