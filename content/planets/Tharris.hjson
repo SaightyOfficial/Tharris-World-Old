@@ -1,0 +1,73 @@
+
+localizedName: Tharris
+
+
+generator: "PlanetGenerator",
+    parent: "sun",
+    iconColor: 2fa373,
+    orbitRadius: 43,
+    hasAtmosphere: true,
+    updateLighting: true,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.3,
+    atmosphereColor: afc4b2,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "CoreQuark",
+    sectorSeed: 69,
+    startSector: 1,
+    sectorSize: 3,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+    allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "titanium",
+        "thorium",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Tharris
+  seed: 2
+  speed: 1
+  radius: 0.05
+  divisions: 5
+  color: dbdbdb
+  octaves: 4
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+    "mesh": {
+      "type": "NoiseMesh",
+      "planet": "Tharris",
+      "seed": 999,
+      "color1": " bf9113",
+      "color2": "a32f58",
+      "divisions": 5,
+      "radius": 0.8,
+      "octaves": 4,
+      "persistence": 1,
+      "scale": 4,
+      "mag": 0.6
+    }
+
+"sectorRules": {
+    "allowLaunchLoadout": true,
+    "keepCoreLoadout": true  // Сохранять ресурсы даже после поражения
+  }
