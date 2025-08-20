@@ -1,0 +1,35 @@
+{
+  name: BigRegenerator
+  localizedName: Big regenerator
+  type: MendProjector
+  description: Bigger version of normal regenerator, has bigger range and power
+  health: 300
+  size: 2
+  range: 120
+  reload: 110
+  healPercent: 0.4
+  category: effect
+
+  phaseRangeBoost:0
+
+  consumes: {
+    power: 2
+  }
+
+  requirements: [
+    Iron/100
+    lead/50
+    graphite/25
+    Osmium/30
+  ]
+
+  research: {
+          parent: Regenerator
+          requirements: [
+            Iron/5000
+            lead/3500
+            graphite/2250
+            Osmium/500
+          ]
+        }
+}

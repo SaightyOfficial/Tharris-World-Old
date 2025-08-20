@@ -1,0 +1,32 @@
+{
+  name: Regenerator
+  type: MendProjector
+  description: Just block regenerator
+  health: 150
+  size: 1
+  range: 40
+  reload: 120
+  healPercent: 0.2
+  category: effect
+
+  phaseRangeBoost:0
+
+  consumes: {
+    power: 0.3
+  }
+
+  requirements: [
+    Iron/50
+    lead/30
+    graphite/25
+  ]
+
+  research: {
+          parent: CoalThermalGenerator
+          requirements: [
+            Iron/500
+            lead/350
+            graphite/125
+          ]
+        }
+}

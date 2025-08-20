@@ -1,0 +1,37 @@
+{
+  name: OverdriveProjector
+  localizedName: Overdrive Projector
+  type: OverdriveProjector
+  description: Speeds up blocks work radius by 50%
+  health: 300
+  size: 2
+  range: 120
+  reload: 110
+  speedBoost: 1.5
+  speedBoostPhase: 0
+  useTime: 200.0
+  category: effect
+
+  phaseRangeBoost:0
+
+  consumes: {
+    power: 2
+  }
+
+  requirements: [
+    Iron/70
+    Osmium/30
+    silicon/20
+    PhasePlastic/25
+  ]
+
+  research: {
+          parent: BigRegenerator
+          requirements: [
+    Iron/7500
+    Osmium/3000
+    silicon/2000
+    PhasePlastic/2500
+  ]
+        }
+}

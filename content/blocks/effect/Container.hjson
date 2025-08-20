@@ -1,0 +1,27 @@
+type:StorageBlock
+localizedName: Osmium container
+category: effect
+health: 750
+size: 2
+
+itemCapacity: 500
+squareSprite: false
+
+requirements: [
+    Iron/50
+    lead/50
+    graphite/50
+    Osmium/50
+    PhasePlastic/50
+]
+
+research: {
+          parent: CoalThermalGenerator
+          requirements: [
+    Iron/6500
+    lead/5000
+    graphite/2500
+    Osmium/5500
+    PhasePlastic/2500
+]
+        }
