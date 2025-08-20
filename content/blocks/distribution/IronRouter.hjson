@@ -1,0 +1,18 @@
+  type: Router
+  category: distribution
+  name: Iron router
+  health: 20
+  size: 1
+  capacity: 1
+
+  requirements: [
+      Iron/5
+  ]
+
+  research: {
+    parent: IronJunction
+    planet: Tharris
+    requirements: [
+        Iron/100
+    ]
+} 

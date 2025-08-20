@@ -1,0 +1,23 @@
+  name: IronConveyor
+  localizedName: Iron Conveyor
+  category: distribution
+  speed: 0.04      //Скорость
+  displayedSpeed: 0.4     //Отображаемая скорость
+  health: 20
+  acceptsItems: true      //Может принимать предметы? Да
+  type: Conveyor
+  requirements: [
+    Iron/1
+]
+
+junctionReplacement:IronJunction
+bridgeReplacement:IronBridge
+
+//К чему привязан
+research: {
+    parent: CoreQuark
+    planet: Tharris
+    requirements: [
+        Iron/10
+ ]
+}

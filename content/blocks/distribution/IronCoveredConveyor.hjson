@@ -1,0 +1,27 @@
+  name: IronCoveredConveyor
+  localizedName: Iron Covered Conveyor
+  category: distribution
+  speed: 0.04      //Скорость
+  displayedSpeed: 0.4     //Отображаемая скорость
+  health: 20
+  acceptsItems: true      //Может принимать предметы? Да
+  type: ArmoredConveyor
+  requirements: [
+    Iron/1
+    TemperedGlass/1
+    silicon/1
+]
+
+junctionReplacement:IronJunction
+bridgeReplacement:IronBridge
+
+//К чему привязан
+research: {
+    parent: IronRouter
+    planet: Tharris
+    requirements: [
+        Iron/1250
+        TemperedGlass/150
+        silicon/1000
+ ]
+}

@@ -1,0 +1,18 @@
+type: OverflowGate
+category: distribution
+name: Iron overflow gate
+health: 30
+
+requirements: [
+  Iron/6
+  lead/4
+] 
+
+  research: {
+    parent: IronRouter
+    planet: Tharris
+    requirements: [
+        Iron/50
+        lead/30
+    ]
+} 

@@ -1,0 +1,19 @@
+type: OverflowGate
+category: distribution
+name: Iron underflow gate
+health: 30
+invert: true
+
+requirements: [
+  Iron/6
+  lead/4
+] 
+
+  research: {
+    parent: IronOverflowGate
+    planet: Tharris
+    requirements: [
+        Iron/50
+        lead/30
+    ]
+} 

@@ -1,0 +1,20 @@
+type: Sorter
+category: distribution
+size: 1
+health: 30
+name: Inverted iron sorter
+invert: true
+
+requirements: [
+  Iron/10
+  lead/5
+] 
+
+research: {
+    parent: IronSorter
+    planet: Tharris
+    requirements: [
+        Iron/100
+        lead/50
+    ]
+}

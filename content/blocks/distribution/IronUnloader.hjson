@@ -1,0 +1,22 @@
+type: Unloader
+name: Iron unloader
+health: 30
+capacity: 0
+
+requirements: [
+  Iron/30
+  silicon/25
+  lead/20
+] 
+category: effect
+
+//Снова второй предмет.
+research: {
+    parent: IronRouter
+    planet: Tharris
+        requirements: [
+            Iron/500
+            silicon/400
+            lead/375
+    ] 
+}

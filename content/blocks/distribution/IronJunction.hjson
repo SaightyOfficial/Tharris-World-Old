@@ -1,0 +1,23 @@
+type: Junction
+category: distribution
+size: 1
+health: 20
+name: Iron junction
+
+//Скорость и сколько вмещает предметов (10 шт)
+speed: 0.05
+capacity: 4
+
+//Затраты на постройку
+requirements: [
+    Iron/2
+]
+
+//К чему привязано, затраты на исследование
+research: {
+    parent: IronConveyor
+    planet: Tharris
+    requirements: [
+        Iron/30
+    ]
+}

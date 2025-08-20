@@ -1,0 +1,23 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 20
+//На сколько блоков (плиток) может растянуться
+range: 4
+transportTime: 0.04
+hasPower: false
+name: Iron Bridge Conveyor
+
+requirements: [
+    Iron/12
+    lead/5
+]
+
+research: {
+    parent: IronRouter
+    planet: Tharris
+    requirements: [
+        Iron/200
+        lead/100
+    ]
+}  
