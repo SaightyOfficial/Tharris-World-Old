@@ -79,16 +79,5 @@
 		}
 	}
   ]
-
-  research: {
-          parent: Crusher
-          requirements: [
-            Iron/50000
-            lead/70000
-            silicon/40000
-            graphite/35000
-            Osmium/25000
-          ]
-        }
-
 }
+
