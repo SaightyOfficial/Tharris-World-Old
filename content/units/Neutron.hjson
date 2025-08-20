@@ -1,0 +1,69 @@
+{
+	name: Neutron
+	type: flying
+	flying: true
+        description: Core unit "Proton", builds structures and protects the core from enemies
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 80
+	speed: 3
+	range: 85
+	size: 14
+	omniMove: true
+	rotateMoveFirst: false
+	rotateShooting: true
+	rotateSpeed: 10
+	canBuild: true
+	buildSpeed: 1
+	mineTier: 1
+	mineSpeed: 6
+	weapons: [
+	{
+		name: NeutronGun
+		reload: 60
+		x: 0
+		y: 0
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 14
+			speed: 5
+			lifetime: 25
+			homingPower: 7
+			homingRange: 9.5
+			splashDamage: 23
+			splashRadius: 6
+			fragBullets: 6
+                        collidesBuildings: false
+			fragBullet: {
+				type: SapBulletType
+				damage: 10
+				length: 18
+                                collidesBuildings: false
+			}
+		}
+	}
+	]
+	abilities: [
+		{
+		type: RegenAbility
+		amount: 1
+		percentAmount: 0.1
+		}
+	]
+}

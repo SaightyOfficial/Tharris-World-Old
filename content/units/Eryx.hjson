@@ -1,0 +1,32 @@
+{
+	name: Eryx
+	type: flying
+	flying: true
+        description: Good support unit, can mine ores
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 120
+	speed: 3
+	range: 65
+	hitSize: 7
+	omniMove: true
+	rotateSpeed: 10
+	mineTier: 1
+	mineSpeed: 4
+
+        research: {
+          parent: Blitz
+          requirements: [
+            Iron/300
+            lead/300
+            silicon/100
+          ]
+          objectives: [
+          {
+            type: SectorComplete
+            preset: river
+          } 
+          ]
+        }
+}

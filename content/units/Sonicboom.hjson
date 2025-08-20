@@ -1,0 +1,66 @@
+{
+	name: Sonicboom
+	type: flying
+	flying: true
+        description:Fast flying unit, upgrade of blitz
+	alwaysUnlocked: false
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 350
+	speed: 2.5
+	range: 120
+	hitSize: 9
+	omniMove: true
+	rotateMoveFirst: false
+	rotateShooting: true
+	rotateSpeed: 7
+	weapons: [
+	{
+		name: SonicboomGun
+		reload: 10
+		x: 0
+		y: 0
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 15
+			speed: 6
+			lifetime: 19
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        ]
+
+        research: {
+          parent: Blitz
+          requirements: [
+            Iron/2500
+            lead/2100
+            graphite/1750
+          ]
+          objectives: [
+      {
+        type: OnSector
+        preset: stoneplains
+      } 
+    ]
+        }
+}

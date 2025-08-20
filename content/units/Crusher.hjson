@@ -1,0 +1,98 @@
+{
+  name: Crusher
+  type: mech
+  flying: false
+  armor: 20
+  canBoost: false
+  faceTarget: true
+  squareShape: true
+  health: 1000
+  speed: 0.5
+  range: 250
+  hitSize: 16
+  omniMove: true
+  rotateMoveFirst: false
+  rotateShooting: true
+  rotateSpeed: 2.75
+  
+  weapons: [
+    {
+		name: CrusherGun
+		reload: 20
+		x: 8
+		y: 0
+		mirror: true
+		rotate: true
+		rotateSpeed: 2
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 50
+			speed: 6
+			lifetime: 45
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+        {
+		name: CrusherMiniGun
+		reload: 10
+		x: 0
+		y: -2
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 15
+			speed: 6
+			lifetime: 15
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+  ]
+
+  research: {
+  parent: Juggernaut
+  requirements: [
+            Iron/5000
+            lead/7000
+            silicon/4000
+            graphite/3500
+          ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: linear
+      } 
+    ]
+}
+}

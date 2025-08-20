@@ -1,0 +1,66 @@
+{
+  name: Juggernaut
+  type: mech
+  flying: false
+  armor: 8
+  canBoost: false
+  faceTarget: true
+  squareShape: true
+  health: 400
+  speed: 0.5
+  range: 140
+  hitSize: 13
+  omniMove: true
+  rotateMoveFirst: false
+  rotateShooting: true
+  rotateSpeed: 2.75
+  
+  weapons: [
+    {
+		name: JuggernautGun
+		reload: 20
+		x: 7
+		y: 0
+		mirror: true
+		rotate: true
+		rotateSpeed: 3
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 20
+			speed: 6
+			lifetime: 21
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+  ]
+
+  research: {
+  parent: Paragon
+  requirements: [
+            Iron/2500
+            lead/2100
+            graphite/1750
+          ]
+  objectives: [
+      {
+        type: OnSector
+        preset: stoneplains
+      } 
+    ]
+}
+}

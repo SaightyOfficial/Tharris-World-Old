@@ -1,0 +1,99 @@
+{
+  name: Destroyer
+  type: mech
+  flying: false
+  armor: 20
+  canBoost: false
+  faceTarget: true
+  squareShape: true
+  health: 1000
+  speed: 0.5
+  range: 250
+  hitSize: 16
+  omniMove: true
+  rotateMoveFirst: false
+  rotateShooting: true
+  rotateSpeed: 2.75
+  
+  weapons: [
+    {
+		name: CrusherGun
+		reload: 15
+		x: 12
+		y: 0
+		mirror: true
+		rotate: true
+		rotateSpeed: 2
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 100
+			speed: 6
+			lifetime: 45
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+        {
+		name: CrusherMiniGun
+		reload: 5
+		x: 0
+		y: -2
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 20
+			speed: 6
+			lifetime: 15
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+  ]
+
+  research: {
+          parent: Crusher
+          requirements: [
+            Iron/50000
+            lead/70000
+            silicon/40000
+            graphite/35000
+            Osmium/25000
+          ]
+          objectives: [
+      {
+        type: SectorComplete
+        preset: stoneplains
+      } 
+    ]
+        }
+}

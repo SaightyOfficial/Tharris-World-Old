@@ -1,0 +1,57 @@
+{
+	name: Photon
+	type: flying
+	flying: true
+        description: Core unit "Quark", builds structures and protects the core from enemies
+	alwaysUnlocked: true
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 20
+	speed: 3
+	range: 65
+	size: 10
+	omniMove: true
+	rotateMoveFirst: true
+	rotateShooting: true
+	rotateSpeed: 10
+	canBuild: true
+	buildSpeed: 1
+	mineTier: 1
+	mineSpeed: 6
+	weapons: [
+	{
+		name: PhotonGun
+		reload: 60
+		x: 0
+		y: 0
+		mirror: false
+		rotate: false
+		bullet: {
+			type: MissileBuletType
+			damage: 7
+			speed: 5
+			lifetime: 15
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+			fragBullets: 6
+                        collidesBuildings: false
+			fragBullet: {
+				type: SapBulletType
+				damage: 5
+				length: 20
+                                collideBuildings: false
+			}
+		}
+	}
+	]
+	abilities: [
+		{
+		type: RegenAbility
+		amount: 1
+		percentAmount: 0.1
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	name: Vortex
+	type: flying
+	flying: true
+        description: Good support unit, can mine ores and build structures, upgrade of Syndine
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 950
+	speed: 3.1
+	range: 65
+	hitSize: 20
+	omniMove: true
+	rotateSpeed: 10
+	canBuild: true
+	buildSpeed: 1
+	mineTier: 2
+	mineSpeed: 8
+
+        research: {
+          parent: Syndine
+          requirements: [
+            Iron/5000
+            lead/7000
+            silicon/4000
+            graphite/3500
+          ]
+          objectives: [
+          {
+            type: SectorComplete
+            preset: linear
+          }
+          ]
+        }
+}

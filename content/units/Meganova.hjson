@@ -1,0 +1,139 @@
+{
+	name: Meganova
+	type: flying
+	flying: true
+        description:Big flying unit, upgrade of Turbo
+	alwaysUnlocked: false
+	armor: 30
+	faceTarget: true
+	squareShape: true
+	health: 11000
+	speed: 1
+	range: 160
+	hitSize: 48
+	omniMove: true
+	rotateMoveFirst: false
+	rotateShooting: true
+	rotateSpeed: 1.8
+	weapons: [
+	{
+		name: MeganovaGun
+		reload: 10
+		x: 0
+		y: 2
+		mirror: false
+		rotate: true
+		rotateSpeed: 3
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 40
+			speed: 6
+			lifetime: 25
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        {
+		name: MeganovaLance
+		reload: 60
+		x: 8
+		y: 12
+		mirror: true
+		rotate: true
+		rotateSpeed: 3
+                shootSound: railgun
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+            "type": "shrapnelBulletType",
+            "lifetime": 19,
+            "damage": 160,
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 20
+            serrationWidth: 5
+            hitLarge: true
+            "fromColor": "abb3b3",
+            "toColor": "e8eded",
+            "length": 140,
+            "width": 8,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+                }
+	}
+        {
+		name: MeganovaMiniGun
+		reload: 5
+		x: 10
+		y: -10
+		mirror: true
+		rotate: true
+		rotateSpeed: 3
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 20
+			speed: 6
+			lifetime: 29
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        ]
+
+        research: {
+          parent: Turbo
+          requirements: [
+            Iron/50000
+            lead/70000
+            silicon/40000
+            graphite/35000
+            Osmium/25000
+          ]
+          objectives: [
+      {
+        type: SectorComplete
+        preset: stoneplains
+      } 
+    ]
+        }
+}

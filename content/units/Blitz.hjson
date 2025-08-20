@@ -1,0 +1,60 @@
+{
+	name: Blitz
+	type: flying
+	flying: true
+        description:Fast flying unit
+	alwaysUnlocked: false
+	armor: 0
+	faceTarget: true
+	squareShape: true
+	health: 150
+	speed: 2.3
+	range: 80
+	hitSize: 6
+	omniMove: true
+	rotateMoveFirst: false
+	rotateShooting: true
+	rotateSpeed: 6
+	weapons: [
+	{
+		name: BlitzGun
+		reload: 20
+		x: 0
+		y: 0
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 7
+			speed: 5
+			lifetime: 15
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+        ]
+
+        research: {
+          parent: AirUnitFactory
+          requirements: [
+            Iron/500
+            lead/200
+            graphite/175
+          ]
+        }
+}

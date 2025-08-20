@@ -1,0 +1,60 @@
+{
+  name: Paragon
+  type: mech
+  flying: false
+  armor: 5
+  canBoost: false
+  faceTarget: true
+  squareShape: true
+  health: 170
+  speed: 0.5
+  range: 120
+  hitSize: 10
+  omniMove: true
+  rotateMoveFirst: false
+  rotateShooting: true
+  rotateSpeed: 2.75
+  
+  weapons: [
+    {
+		name: ParagonGun
+		reload: 30
+		x: 5
+		y: 0
+		mirror: true
+		rotate: true
+		rotateSpeed: 4
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			damage: 13
+			speed: 5
+			lifetime: 20
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 17
+			splashRadius: 6
+		}
+	}
+  ]
+
+  research: {
+  parent: GroundUnitFactory
+  requirements: [
+    Iron/150
+    lead/75
+    graphite/75
+  ]
+}
+}

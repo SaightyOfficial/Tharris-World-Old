@@ -1,0 +1,129 @@
+{
+	name: Turbo
+	type: flying
+	flying: true
+        description:Big flying unit, upgrade of sonicboom
+	alwaysUnlocked: false
+	armor: 10
+	faceTarget: true
+	squareShape: true
+	health: 1100
+	speed: 1.5
+	range: 120
+	hitSize: 20
+	omniMove: true
+	rotateMoveFirst: false
+	rotateShooting: true
+	rotateSpeed: 7
+	weapons: [
+	{
+		name: TurboGun
+		reload: 15
+		x: 0
+		y: 0
+		mirror: false
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 16
+			speed: 6
+			lifetime: 25
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        {
+		name: TurboMiniGun1
+		reload: 10
+		x: 5
+		y: 8
+		mirror: true
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 7
+			speed: 6
+			lifetime: 23
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        {
+		name: TurboMiniGun2
+		reload: 10
+		x: 5
+		y: -8
+		mirror: true
+		rotate: true
+		rotateSpeed: 10
+		parts: [
+			{
+			suffix: -turret
+			x: 0
+			y: 0
+			mirror: false
+			progress: reload
+			moveX: 0
+			moveY: 0
+			moveRot: 0
+			}
+		]
+		bullet: {
+			type: MissileBuletType
+			damage: 7
+			speed: 6
+			lifetime: 26
+			homingPower: 5
+			homingRange: 9.5
+			splashDamage: 16
+			splashRadius: 6
+		}
+	}
+        ]
+
+        research: {
+          parent: Sonicboom
+          requirements: [
+            Iron/5000
+            lead/7000
+            silicon/4000
+            graphite/3500
+          ]
+          objectives: [
+      {
+        type: SectorComplete
+        preset: linear
+      } 
+    ]
+        }
+}
