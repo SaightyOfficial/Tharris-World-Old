@@ -1,0 +1,36 @@
+type:CoreBlock
+localizedName: Core "Proton"
+category: effect
+health: 3750
+size: 4
+
+itemCapacity: 6500
+unitCapModifier: 24 //Skoka unitav
+unitType: "Neutron"
+incinerateNonBuildable: true //Moza stroit?
+isFirstTier: false
+squareSprite: false
+
+requirements: [
+    Iron/2000
+    lead/1750
+    graphite/1250
+    silicon/1000
+]
+
+research: {
+  parent: CoreQuark
+  planet: Tharris
+  requirements: [
+      Iron/11000
+      lead/8500
+      graphite/6500
+      silicon/4500
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: river
+      } 
+  ]
+}

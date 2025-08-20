@@ -1,0 +1,30 @@
+type:CoreBlock
+localizedName: Core "Lepton"
+category: effect
+health: 6250
+size: 5
+
+itemCapacity: 11000
+unitCapModifier: 24 //Skoka unitav
+unitType: "Neutron"
+incinerateNonBuildable: true //Moza stroit?
+isFirstTier: false
+squareSprite: false
+
+requirements: [
+    Iron/5000
+    lead/4750
+    silicon/3500
+    Plutonium/2500
+]
+
+research: {
+  parent: CoreProton
+  planet: Tharris
+  requirements: [
+    Iron/25000
+    lead/20000
+    silicon/15000
+    Plutonium/17500
+]
+}

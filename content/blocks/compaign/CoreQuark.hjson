@@ -1,0 +1,26 @@
+type:CoreBlock
+localizedName: Core "Quark"
+category: effect
+health: 1750
+size: 3
+
+itemCapacity: 2500
+unitCapModifier: 16 //Skoka unitav
+unitType: "Photon"
+incinerateNonBuildable: true //Moza stroit?
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+    Iron/1250
+    lead/500
+    graphite/250
+]
+
+research: {
+    root: true
+    name: Tharris
+    planet: Tharris
+}
+
+alwaysUnlocked: true
