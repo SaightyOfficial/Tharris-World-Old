@@ -1,0 +1,17 @@
+localizedName: Phase plastic
+name: PhasePlastic
+explosiveness: 0
+flammability: 0.5
+radioactivity: 0
+charge: 0
+color: 648212
+cost: 1
+hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+research: {
+    root: false
+    name: Phase plastic
+    parent: Osmium
+}

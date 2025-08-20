@@ -1,0 +1,17 @@
+localizedName: Biomass
+name: Biomass
+explosiveness: 0
+flammability: 1
+radioactivity: 0
+charge: 0
+color: 7aadff
+cost: 1
+hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+research: {
+    root: false
+    name: Biomass
+    parent: Iron
+}

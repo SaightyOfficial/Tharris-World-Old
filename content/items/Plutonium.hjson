@@ -1,0 +1,18 @@
+localizedName: Plutonium
+name: Plutonium
+explosiveness: 0.05
+flammability: 0
+radioactivity: 1
+charge: 0
+hardness:4
+color: 985ab0
+cost: 1
+hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+research: {
+    root: false
+    name: Osmium
+    parent: Osmium
+}

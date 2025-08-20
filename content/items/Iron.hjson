@@ -1,0 +1,17 @@
+localizedName: Iron
+name: Iron
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+color: BBBBBB
+cost: 1
+hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+research: {
+    root: false
+    name: Iron
+    parent: CoreQuark
+}
