@@ -33,7 +33,7 @@ targetGround:true
 
 range: 140
 maxAmmo: 150
-inaccuracy: 4
+inaccuracy: 12
 shootEffect: {
         type: Particle Effect
         particles: 10
@@ -44,7 +44,7 @@ shootEffect: {
 }
 health: 450
 category: turret
-reload: 6                  //Перезарядка
+reload: 8                  //Перезарядка
 //Виды пуль (боеприпасов)
 "ammoTypes": {
     "silicon": {
@@ -97,4 +97,5 @@ reload: 6                  //Перезарядка
                     collidesBuildings: false
                    }
 }
+
 shootSound: blaster
