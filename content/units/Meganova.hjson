@@ -129,11 +129,6 @@
             graphite/35000
             Osmium/25000
           ]
-          objectives: [
-      {
-        type: SectorComplete
-        preset: stoneplains
-      } 
-    ]
         }
+
 }
