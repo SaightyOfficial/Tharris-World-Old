@@ -1,5 +1,4 @@
 type:StorageBlock
-localizedName: Osmium container
 category: effect
 health: 750
 size: 2
@@ -25,3 +24,4 @@ research: {
     PhasePlastic/2500
 ]
         }
+
