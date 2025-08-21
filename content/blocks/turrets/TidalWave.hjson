@@ -73,8 +73,9 @@ reload: 4                  //Перезарядка
                     liquid:water
                     speed: 5
                     hitEffect: freezing
-                    damage: 7
+                    damage: 2
                     bulletInterval: 3.2
                    }
 
 }
+
