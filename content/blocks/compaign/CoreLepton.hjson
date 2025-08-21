@@ -1,5 +1,4 @@
 type:CoreBlock
-localizedName: Core "Lepton"
 category: effect
 health: 6250
 size: 5
@@ -17,3 +16,4 @@ requirements: [
     silicon/3500
     Plutonium/2500
 ]
+
