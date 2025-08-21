@@ -4,7 +4,7 @@
   health: 150
   size: 1
   range: 40
-  reload: 120
+  reload: 240
   healPercent: 0.05
   category: effect
 
@@ -30,4 +30,5 @@
         }
 
 }
+
 
