@@ -1,5 +1,4 @@
 name: Fuse
-localizedName: Fuse
 size:2
 requirements: [
 Iron/80
@@ -59,4 +58,5 @@ reload: 120                  //Перезарядка
                     bulletInterval: 3
                    }
 }
+
 shootSound: cannon
