@@ -1,5 +1,4 @@
 name: firstlanding
-localizedName: First landing
 description: Journey begins here. Collect iron and lead, learn graphite
 captureWave: 10
 difficulty: 1
@@ -17,4 +16,5 @@ research: {
     name: First landing
     parent: CoreQuark
     planet: Tharris
+
 }
