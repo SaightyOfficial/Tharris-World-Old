@@ -4,11 +4,12 @@ health: 300
 size: 2
 hasPower: true
 hasItems: true
+liquidCapacity: 0.4
 itemCapacity: 20
 craftTime: 60  
 outputLiquid: cryofluid/0.2
 consumes: {
-  power: 2      
+  power: 1.5
   items: {          
     items: [
       Osmium/1
