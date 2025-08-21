@@ -1,5 +1,4 @@
 name: lonelylake
-localizedName: Lonely lake
 description: Small lake in mountains, research liquid gun, capacitor, better graphite press and steam generator
 captureWave: 20
 difficulty: 5
@@ -12,7 +11,6 @@ sector: 143
 
 research: {
     root: false
-    name: Lonely lake
     parent: stoneplains
     planet: Tharris
     objectives: [
@@ -21,4 +19,5 @@ research: {
         preset: stoneplains
       } 
     ]
+
 }
