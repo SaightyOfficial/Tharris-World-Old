@@ -1,5 +1,4 @@
 name: OsmiumWallLarge
-localizedName: Large osmium wall
 type: Wall
 category: defense
 size: 2
@@ -15,4 +14,5 @@ research: {
     requirements: [
         Osmium/2500
     ]
+
   } 
