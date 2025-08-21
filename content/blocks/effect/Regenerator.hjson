@@ -1,7 +1,6 @@
 {
   name: Regenerator
   type: MendProjector
-  description: Just block regenerator
   health: 150
   size: 1
   range: 40
@@ -31,3 +30,4 @@
         }
 
 }
+
