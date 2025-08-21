@@ -1,5 +1,4 @@
   name: IronConveyor
-  localizedName: Iron Conveyor
   category: distribution
   speed: 0.04      //Скорость
   displayedSpeed: 0.4     //Отображаемая скорость
@@ -20,4 +19,5 @@ research: {
     requirements: [
         Iron/10
  ]
+
 }
