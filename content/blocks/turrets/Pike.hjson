@@ -1,7 +1,6 @@
 type: PowerTurret
 
 Name: Pike
-localizedName: Pike
 
 size: 1
 health: 200
