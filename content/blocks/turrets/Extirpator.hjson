@@ -1,5 +1,4 @@
 name: extirpator
-localizedName: Extirpator
 size:3
 requirements: [
 Iron/150
@@ -75,3 +74,4 @@ reload: 130                  //Перезарядка
 }
 
 shootSound: cannon
+
