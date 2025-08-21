@@ -36,7 +36,7 @@ coolant: {
 "ammoTypes": {
     "Iron": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 65
                     speed: 2
                     sprite: bullet
                     hitEffect: none
@@ -48,7 +48,7 @@ coolant: {
                    }
     "graphite": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime:44
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -60,7 +60,7 @@ coolant: {
                    }
     "silicon": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 44
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -73,4 +73,5 @@ coolant: {
 }
 
 shootSound: shoot
+
 
