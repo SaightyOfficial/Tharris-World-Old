@@ -35,6 +35,12 @@ health: 450
 category: turret
 reload: 6                  //Перезарядка
 //Виды пуль (боеприпасов)
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
 "ammoTypes": {
     "PhasePlastic": {
                     type: MissleBulletType
@@ -65,4 +71,5 @@ reload: 6                  //Перезарядка
 }
 
 shootSound: blaster
+
 
