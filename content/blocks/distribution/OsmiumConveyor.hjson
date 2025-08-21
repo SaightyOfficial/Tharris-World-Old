@@ -1,5 +1,4 @@
   name: OsmiumConveyor
-  localizedName: Osmium Conveyor
   category: distribution
   speed: 0.10      //Скорость
   displayedSpeed: 0.10     //Отображаемая скорость
@@ -24,4 +23,5 @@ research: {
         lead/250
         Iron/350
  ]
+
 }
