@@ -1,5 +1,4 @@
 {
-  description: There is an enemy base here, explore the T2 reconstructor
   planet: Tharris  
   sector: 123
   name: stoneplains
@@ -21,3 +20,4 @@
   }
 
 }
+
