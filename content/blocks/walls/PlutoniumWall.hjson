@@ -1,5 +1,4 @@
 name: PlutoniumWall
-localizedName: Plutonium wall
 type: Wall
 category: defense
 size: 1
@@ -15,4 +14,5 @@ research: {
     requirements: [
         Plutonium/250
     ]
+
   } 
