@@ -1,5 +1,4 @@
 name: weatheredearth
-description: Research new material - osmium, and all thing that are made of it
 captureWave: 35
 difficulty: 5
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
