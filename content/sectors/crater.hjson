@@ -1,5 +1,4 @@
 {
-  description: Crater that destroyed 99.99% of all life on planet, left only some bacteria. Try pumping water from the crater.
   planet: Tharris  
   sector: 34
   name: crater
@@ -21,4 +20,5 @@ objectives: [
   }
 
 }
+
 
