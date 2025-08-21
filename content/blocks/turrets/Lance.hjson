@@ -38,6 +38,13 @@ shootType: {
 
 category: turret
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 requirements: [
   Iron/65
   Osmium/40
