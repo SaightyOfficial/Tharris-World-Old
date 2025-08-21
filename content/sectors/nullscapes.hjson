@@ -1,5 +1,4 @@
 name: nullscapes
-localizedName: Nullscapes
 description: Just cool scapes, research plutonium and plutonium reactor
 captureWave: 35
 difficulty: 9
@@ -12,7 +11,6 @@ sector: 51
 
 research: {
     root: false
-    name: Nullscapes
     parent: linear
     planet: Tharris
     objectives: [
@@ -21,4 +19,5 @@ research: {
         preset: linear
       } 
     ]
+
 }
