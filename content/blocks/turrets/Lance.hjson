@@ -1,7 +1,6 @@
 type: PowerTurret
 
 Name: Lance
-localizedName: Lance
 
 size: 2
 health: 400
