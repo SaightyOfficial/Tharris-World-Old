@@ -4,7 +4,7 @@ health: 150
 size: 1
 hasPower: true
 hasItems: true
-liquidCapacity: 0.2
+liquidCapacity: 10
 itemCapacity: 10
 craftTime: 60  
 outputLiquid: slag/0.2
