@@ -1,0 +1,33 @@
+name: Slag kiln
+type: GenericCrafter
+health: 150
+size: 1
+hasPower: true
+hasItems: true
+liquidCapacity: 0.2
+itemCapacity: 10
+craftTime: 60  
+outputLiquid: slag/0.2
+consumes: {
+  power: 0.5
+  items: {          
+    items: [
+      Iron/1
+    ]
+  }
+}
+requirements: [
+  Iron/50
+  lead/45
+  silicon/30
+]
+category: crafting,
+research: {
+  parent: GraphitePress
+  planet: Tharris
+  requirements: [
+      Iron/4000
+      lead/3000
+      silicon/1500
+  ]
+}
