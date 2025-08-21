@@ -1,8 +1,6 @@
 {
   name: BigRegenerator
-  localizedName: Big regenerator
   type: MendProjector
-  description: Bigger version of normal regenerator, has bigger range and power
   health: 300
   size: 2
   range: 120
@@ -34,3 +32,4 @@
         }
 
 }
+
