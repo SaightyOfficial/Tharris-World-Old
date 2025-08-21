@@ -6,7 +6,7 @@
   canBoost: false
   faceTarget: true
   squareShape: true
-  health: 11000
+  health: 14000
   speed: 0.5
   range: 250
   hitSize: 16
@@ -80,5 +80,6 @@
 	}
   ]
 }
+
 
 
