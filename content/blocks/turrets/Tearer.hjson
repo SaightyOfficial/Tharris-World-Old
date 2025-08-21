@@ -44,7 +44,7 @@ coolant: {
 "ammoTypes": {
     "PhasePlastic": {
                     type: MissleBulletType
-                    lifetime: 40
+                    lifetime: 29
                     speed: 7
                     sprite: bullet
                     hitEffect: none
@@ -57,7 +57,7 @@ coolant: {
                    }
     "TemperedGlass": {
                     type: MissleBulletType
-                    lifetime: 40
+                    lifetime: 29
                     speed: 7
                     sprite: bullet
                     hitEffect: none
@@ -71,5 +71,6 @@ coolant: {
 }
 
 shootSound: blaster
+
 
 
