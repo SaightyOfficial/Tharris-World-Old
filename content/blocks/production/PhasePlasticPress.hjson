@@ -1,6 +1,5 @@
 name: Phase plastic press
 type: GenericCrafter
-description: Phase plastic press, presses oil and osmium to make phase plastic
 health: 300
 size: 2
 hasPower: true
@@ -44,4 +43,5 @@ research: {
         preset: base009
       } 
   ]
+
 }
