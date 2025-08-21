@@ -16,6 +16,20 @@ consumes: {
     ]
   }
 }
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawFade
+   suffix: "-liquid"
+   alpha: 0.9
+   heatProgress: true
+  }
+ ]
+}
+
 requirements: [
   Iron/50
   lead/45
