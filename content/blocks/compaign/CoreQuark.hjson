@@ -1,5 +1,4 @@
 type:CoreBlock
-localizedName: Core "Quark"
 category: effect
 health: 1750
 size: 3
@@ -22,5 +21,6 @@ research: {
     name: Tharris
     planet: Tharris
 }
+
 
 alwaysUnlocked: true
