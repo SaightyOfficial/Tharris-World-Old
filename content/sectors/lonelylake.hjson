@@ -1,5 +1,4 @@
 name: lonelylake
-description: Small lake in mountains, research liquid gun, capacitor, better graphite press and steam generator
 captureWave: 20
 difficulty: 5
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
