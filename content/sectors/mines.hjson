@@ -1,5 +1,4 @@
 {
-  localizedName: Mines
   description: There are many resources. Destroy all enemy cores to capture this sector.
   planet: Tharris  
   sector: 128
@@ -12,7 +11,6 @@
 
   research: {
     root: false
-    name: Mines
     parent: greatpassage
     objectives: [
       {
@@ -21,4 +19,5 @@
       } 
     ]
   }
+
 }
