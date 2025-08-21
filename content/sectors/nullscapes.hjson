@@ -1,5 +1,4 @@
 name: nullscapes
-description: Just cool scapes, research plutonium and plutonium reactor
 captureWave: 35
 difficulty: 9
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
