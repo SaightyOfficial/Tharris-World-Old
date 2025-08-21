@@ -13,8 +13,8 @@ sector: 1
 
 research: {
     root: false
-    name: First landing
     parent: CoreQuark
     planet: Tharris
 
 }
+
