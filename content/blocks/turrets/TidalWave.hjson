@@ -48,7 +48,7 @@ reload: 4                  //Перезарядка
                     hitEffect: none
                     damage: 2
                     bulletInterval: 3.2
-                    color: 505050
+                    colorFrom: 505050
                    }
     "oil": {
                     type: LiquidBulletType
@@ -79,6 +79,7 @@ reload: 4                  //Перезарядка
                    }
 
 }
+
 
 
 
