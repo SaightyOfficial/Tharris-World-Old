@@ -1,6 +1,5 @@
 {
   name: TGLiquidRouter
-  localizedName: Liquid Router
   type: LiquidRouter
   health: 90
   size: 1
@@ -18,4 +17,5 @@
       graphite/150
     ]
   }
+
 }
