@@ -42,7 +42,7 @@ reload: 120                  //Перезарядка
 "ammoTypes": {
     "silicon": {
                     type: MissleBulletType
-                    lifetime: 60
+                    lifetime: 52
                     speed: 5
                     sprite: bullet
                     hitEffect: none
@@ -54,7 +54,7 @@ reload: 120                  //Перезарядка
                    }
     "graphite": {
                     type: MissleBulletType
-                    lifetime: 60
+                    lifetime: 52
                     speed: 5
                     sprite: bullet
                     hitEffect: none
@@ -67,4 +67,5 @@ reload: 120                  //Перезарядка
 }
 
 shootSound: cannon
+
 
