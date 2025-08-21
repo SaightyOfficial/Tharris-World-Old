@@ -23,7 +23,7 @@ requirements: [
 ]
 category: crafting,
 research: {
-  parent: GraphitePress
+  parent: SiliconMelter
   planet: Tharris
   requirements: [
       Iron/4000
