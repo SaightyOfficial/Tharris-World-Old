@@ -1,6 +1,5 @@
 name: Capacitor
 type: GenericCrafter
-description: Collects small amount water from air
 health: 400
 size: 2
 hasPower: true
@@ -57,4 +56,5 @@ research: {
         preset: lonelylake
       } 
   ]
+
 }
