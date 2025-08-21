@@ -44,6 +44,13 @@ requirements: [
   graphite/20
 ]
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 research: {
     parent: Uno
     requirements: [
