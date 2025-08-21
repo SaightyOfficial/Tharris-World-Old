@@ -1,4 +1,3 @@
-localizedName: Osmium
 name: Osmium
 explosiveness: 0
 flammability: 0
@@ -15,4 +14,5 @@ research: {
     root: false
     name: Osmium
     parent: Iron
+
 }
