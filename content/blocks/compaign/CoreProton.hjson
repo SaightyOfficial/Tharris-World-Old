@@ -1,5 +1,4 @@
 type:CoreBlock
-localizedName: Core "Proton"
 category: effect
 health: 3750
 size: 4
@@ -33,4 +32,5 @@ research: {
         preset: river
       } 
   ]
+
 }
