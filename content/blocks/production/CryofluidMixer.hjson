@@ -26,8 +26,10 @@ drawer: {
  drawers: [
   DrawDefault
   {
-   type: drawLiquid
+   type: drawFade
    suffix: "-liquid"
+   alpha: 0.9
+   heatProgress: true
   }
   {
    type: DrawRegion
