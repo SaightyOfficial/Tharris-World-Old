@@ -44,7 +44,7 @@ reload: 130                  //Перезарядка
 "ammoTypes": {
     "PhasePlastic": {
                     type: MissleBulletType
-                    lifetime: 34
+                    lifetime: 35
                     speed: 10
                     sprite: bullet
                     hitEffect: none
@@ -56,7 +56,7 @@ reload: 130                  //Перезарядка
                    }
     "Plutonium": {
                     type: MissleBulletType
-                    lifetime: 34
+                    lifetime: 35
                     speed: 10
                     sprite: bullet
                     hitEffect: none
@@ -68,8 +68,8 @@ reload: 130                  //Перезарядка
                    }
     "silicon": {
                     type: MissleBulletType
-                    lifetime: 45
-                    speed: 8
+                    lifetime: 35
+                    speed: 10
                     sprite: bullet
                     hitEffect: none
                     despawnEffect: none
@@ -81,6 +81,7 @@ reload: 130                  //Перезарядка
 }
 
 shootSound: cannon
+
 
 
 
