@@ -1,6 +1,5 @@
 name: Graphite press
 type: GenericCrafter
-description: Better graphite press, to clear coal uses water instead of sand
 health: 300
 size: 2
 hasPower: true
@@ -45,4 +44,5 @@ research: {
         preset: lonelylake
       } 
   ]
+
 }
