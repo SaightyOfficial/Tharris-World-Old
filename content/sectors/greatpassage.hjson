@@ -1,5 +1,4 @@
 name: greatpassage
-localizedName: Great passage
 description: Create your base here, research units for attack and electricity
 captureWave: 10
 difficulty: 1
@@ -12,7 +11,6 @@ sector: 219
 
 research: {
     root: false
-    name: Great passage
     parent: firstland
     planet: Tharris
     objectives: [
@@ -21,4 +19,5 @@ research: {
         preset: firstland
       } 
     ]
+
 }
