@@ -6,12 +6,12 @@ size: 3
 health: 800
 range: 300
 rotateSpeed: 5
-reload: 240
+reload: 3240
 burstSpacing: 1
 shots: 1
 xRand: 1
 consumes: {
-  power: 20
+  power: 12
 }
 recoilAmount: 12
 
@@ -20,7 +20,7 @@ shootSound: railgun
 shootType: {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 450,
+            "damage": 225,
             serrations: 6
             serrationSpacing: 16
             serrationLenScl: 20
@@ -38,9 +38,28 @@ shootType: {
 
 category: turret
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 requirements: [
-  Iron/95
-  lead/75
-  Osmium/90
-  silicon/100
+  Iron/500
+  lead/350
+  Osmium/200
+  silicon/200
+  PhasePlastic/100
 ]
+
+research: {
+    parent: Lance
+    requirements: [
+      Iron/12500
+      lead/10000
+      graphite/7500
+      Osmium/7500
+      PhasePlastic/4575
+    ]
+}
