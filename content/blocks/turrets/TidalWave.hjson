@@ -42,16 +42,17 @@ reload: 4                  //Перезарядка
 "ammoTypes": {
     "water": {
                     type: LiquidBulletType
-                    lifetime: 100
+                    lifetime: 65
                     liquid:water
                     speed: 2
                     hitEffect: none
                     damage: 2
                     bulletInterval: 3.2
+                    color: 505050
                    }
     "oil": {
                     type: LiquidBulletType
-                    lifetime: 100
+                    lifetime: 65
                     liquid:water
                     speed: 2
                     hitEffect: none
@@ -60,7 +61,7 @@ reload: 4                  //Перезарядка
                    }
     "slag": {
                     type: LiquidBulletType
-                    lifetime: 100
+                    lifetime: 65
                     liquid:water
                     speed: 2
                     hitEffect: melting
@@ -69,7 +70,7 @@ reload: 4                  //Перезарядка
                    }
     "cryofluid": {
                     type: LiquidBulletType
-                    lifetime: 100
+                    lifetime: 65
                     liquid:water
                     speed: 5
                     hitEffect: freezing
@@ -78,4 +79,5 @@ reload: 4                  //Перезарядка
                    }
 
 }
+
 
