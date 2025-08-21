@@ -1,4 +1,3 @@
-localizedName: Iron
 name: Iron
 explosiveness: 0
 flammability: 0
@@ -14,4 +13,5 @@ research: {
     root: false
     name: Iron
     parent: CoreQuark
+
 }
