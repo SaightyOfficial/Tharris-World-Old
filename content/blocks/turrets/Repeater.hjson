@@ -1,5 +1,4 @@
 name: Repeater
-localizedName: Repeater
 size:2
 requirements: [
 Iron/75
@@ -99,4 +98,5 @@ reload: 8                  //Перезарядка
 }
 
 shootSound: blaster
+
 
