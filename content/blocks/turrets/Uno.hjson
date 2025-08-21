@@ -27,6 +27,12 @@ health: 150
 category: turret
 reload: 40                  //Перезарядка
 //Виды пуль (боеприпасов)
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
 "ammoTypes": {
     "Iron": {
                     type: BasicBulletType
@@ -67,3 +73,4 @@ reload: 40                  //Перезарядка
 }
 
 shootSound: shoot
+
