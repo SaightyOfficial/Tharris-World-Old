@@ -1,7 +1,5 @@
 name: BiomassCultivator
-localizedName: Biomass cultivator
 type: GenericCrafter
-description: Cultivates biomass from water and energy
 health: 250
 size: 2
 hasPower: false
@@ -57,4 +55,5 @@ research: {
         preset: bacteriaresearchcenter
       } 
   ]
+
 }
