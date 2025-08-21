@@ -6,7 +6,7 @@
   size: 1
   range: 40
   reload: 120
-  healPercent: 0.2
+  healPercent: 0.05
   category: effect
 
   phaseRangeBoost:0
@@ -29,4 +29,5 @@
             graphite/125
           ]
         }
+
 }
