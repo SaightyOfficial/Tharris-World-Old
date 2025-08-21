@@ -1,0 +1,45 @@
+name: Cryofluid mixer
+type: GenericCrafter
+health: 300
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 60  
+outputLiquid: cryofluid/0.2
+consumes: {
+  power: 2      
+  items: {          
+    items: [
+      Osmium/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+requirements: [
+  Iron/80
+  lead/45
+  TemperedGlass/25
+  silicon/20
+]
+category: crafting,
+research: {
+  parent: GraphitePress
+  planet: Tharris
+  requirements: [
+      Iron/4000
+      lead/3000
+      silicon/1500
+      TemperedGlass/1500
+  ]
+  objectives: [
+      {
+        type: OnSector
+        preset: base009
+      } 
+  ]
+
+}
