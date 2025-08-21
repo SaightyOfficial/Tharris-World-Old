@@ -1,7 +1,6 @@
 type: PowerTurret
 
 Name: Spike
-localizedName: Spike
 
 size: 1
 health: 200
