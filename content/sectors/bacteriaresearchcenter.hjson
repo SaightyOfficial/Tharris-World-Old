@@ -1,5 +1,4 @@
 name: bacteriaresearchcenter
-description: Research biomass cultivator and biomass press to make oil
 captureWave: 30
 difficulty: 5
 addStartingItems: false
@@ -21,4 +20,5 @@ research: {
     ]
 
 }
+
 
