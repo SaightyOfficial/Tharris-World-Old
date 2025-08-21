@@ -39,7 +39,7 @@
   health: 120
   speed: 0.12
   research: {
-      parent: IronDrill
+      parent: ElectroDrill
       planet: Tharris
       requirements: [
     Iron/7500
@@ -47,12 +47,7 @@
     silicon/3500
     PhasePlastic/1500
   ]
-  objectives: [
-      {
-        type: SectorComplete
-        preset: lonelylake
-      } 
-    ]
 
 }
+
 
