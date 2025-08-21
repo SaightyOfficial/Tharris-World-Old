@@ -25,6 +25,7 @@ requirements: [
   lead/45
   TemperedGlass/25
   silicon/20
+  Osmium/20
 ]
 category: crafting,
 research: {
@@ -35,12 +36,6 @@ research: {
       lead/3000
       silicon/1500
       TemperedGlass/1500
+      Osmium/750
   ]
-  objectives: [
-      {
-        type: OnSector
-        preset: base009
-      } 
-  ]
-
 }
