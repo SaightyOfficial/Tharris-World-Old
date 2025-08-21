@@ -1,5 +1,4 @@
 name: Trio
-localizedName: Trio
 requirements: [
 Iron/50
 silicon/30
@@ -95,4 +94,5 @@ reload: 15                  //Перезарядка
                     bulletInterval: 3
                    }
 }
+
 shootSound: shoot
