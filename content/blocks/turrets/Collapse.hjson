@@ -1,7 +1,6 @@
 type: PowerTurret
 
 Name: Collapse
-localizedName: Collapse
 
 size: 3
 health: 800
