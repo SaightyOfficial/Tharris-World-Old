@@ -18,7 +18,7 @@ lead/3000
 
 //Тип, радиус атаки, эффект стрельбы
 type: ItemTurret
-range: 225
+range: 220
 shootEffect: {
         type: Particle Effect
         particles: 5
@@ -41,7 +41,7 @@ coolant: {
 "ammoTypes": {
     "Iron": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 74
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -53,7 +53,7 @@ coolant: {
                    }
     "graphite": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 74
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -65,7 +65,7 @@ coolant: {
                    }
    "silicon": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 74
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -77,7 +77,7 @@ coolant: {
                    }
     "PhasePlastic": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 74
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -89,7 +89,7 @@ coolant: {
                    }
    "Plutonium": {
                     type: BasicBulletType
-                    lifetime: 100
+                    lifetime: 74
                     speed: 3
                     sprite: bullet
                     hitEffect: none
@@ -102,4 +102,5 @@ coolant: {
 }
 
 shootSound: shoot
+
 
