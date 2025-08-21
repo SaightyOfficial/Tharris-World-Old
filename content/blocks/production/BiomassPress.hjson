@@ -1,7 +1,5 @@
 name: BiomassPress
-localizedName: Biomass press
 type: GenericCrafter
-description: Presses biomass to oil
 health: 250
 size: 2
 hasPower: true
@@ -60,4 +58,5 @@ research: {
         preset: bacteriaresearchcenter
       } 
   ]
+
 }
