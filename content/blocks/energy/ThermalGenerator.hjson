@@ -1,6 +1,5 @@
 name: Thermal generator  
 type: ThermalGenerator  
-description: Thermal generator that produces power using heat sources.
 health: 300  
 size: 2  
 powerProduction: 0.5
@@ -20,4 +19,5 @@ research: {
     lead/320
     graphite/200 
   ]  
+
 }
