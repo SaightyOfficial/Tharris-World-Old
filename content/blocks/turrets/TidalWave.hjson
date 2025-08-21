@@ -1,5 +1,4 @@
 name: TidalWave
-localizedName: Tidal wave
 size: 2
 requirements: [
         Iron/65
@@ -77,4 +76,5 @@ reload: 4                  //Перезарядка
                     damage: 7
                     bulletInterval: 3.2
                    }
+
 }
