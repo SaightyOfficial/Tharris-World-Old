@@ -1,5 +1,4 @@
 name: tearer
-localizedName: Tearer
 size:3
 requirements: [
 Iron/75
@@ -66,3 +65,4 @@ reload: 6                  //Перезарядка
 }
 
 shootSound: blaster
+
