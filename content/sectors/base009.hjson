@@ -1,5 +1,4 @@
 name: base009
-localizedName: Base 009
 description: It was base, where phase plastic was made
 captureWave: 30
 difficulty: 5
@@ -21,4 +20,5 @@ research: {
         preset: weatheredearth
       } 
     ]
+
 }
