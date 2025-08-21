@@ -4,8 +4,8 @@
   health: 300
   size: 2
   range: 120
-  reload: 110
-  healPercent: 0.1
+  reload: 240
+  healPercent: 0.7
   category: effect
 
   phaseRangeBoost:0
@@ -32,4 +32,5 @@
         }
 
 }
+
 
