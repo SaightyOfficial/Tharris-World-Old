@@ -12,7 +12,8 @@ research: {
     parent: PlutoniumWall
     planet: Tharris
     requirements: [
-        Plutonium/2500
+        Plutonium/100
     ]
 
   } 
+
