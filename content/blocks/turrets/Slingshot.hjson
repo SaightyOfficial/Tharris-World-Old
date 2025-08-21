@@ -1,5 +1,4 @@
 name: Slingshot
-localizedName: Slingshot
 size:2
 requirements: [
 Iron/120
@@ -70,4 +69,5 @@ reload: 30                  //Перезарядка
                     collidesBuildings: false
                    }
 }
+
 shootSound: blaster
