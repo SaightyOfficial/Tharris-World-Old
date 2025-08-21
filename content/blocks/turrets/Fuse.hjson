@@ -17,6 +17,13 @@ research: {
 ]
 }
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 //Тип, радиус атаки, эффект стрельбы
 type: ItemTurret
 range: 260
@@ -60,3 +67,4 @@ reload: 120                  //Перезарядка
 }
 
 shootSound: cannon
+
