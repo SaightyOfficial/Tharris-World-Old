@@ -1,5 +1,4 @@
 name: greatpassage
-description: Create your base here, research units for attack and electricity
 captureWave: 10
 difficulty: 1
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
