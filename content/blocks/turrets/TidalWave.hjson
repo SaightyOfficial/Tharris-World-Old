@@ -53,7 +53,7 @@ reload: 4                  //Перезарядка
     "oil": {
                     type: LiquidBulletType
                     lifetime: 65
-                    liquid:water
+                    liquid:oik
                     speed: 2
                     hitEffect: none
                     damage: 3
@@ -62,7 +62,7 @@ reload: 4                  //Перезарядка
     "slag": {
                     type: LiquidBulletType
                     lifetime: 65
-                    liquid:water
+                    liquid:slag
                     speed: 2
                     hitEffect: melting
                     damage: 7
@@ -71,7 +71,7 @@ reload: 4                  //Перезарядка
     "cryofluid": {
                     type: LiquidBulletType
                     lifetime: 65
-                    liquid:water
+                    liquid:cryofluid
                     speed: 2
                     hitEffect: freezing
                     damage: 7
@@ -79,6 +79,7 @@ reload: 4                  //Перезарядка
                    }
 
 }
+
 
 
 
