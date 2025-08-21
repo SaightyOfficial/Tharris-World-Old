@@ -20,6 +20,22 @@ consumes: {
     amount: 0.2
   }
 }
+
+drawer: {
+ type:DrawMulti 
+ drawers: [
+  DrawDefault
+  {
+   type: drawLiquid
+   suffix: "-liquid"
+  }
+  {
+   type: DrawRegion
+   suffix: "-top"
+  }
+ ]
+}
+
 requirements: [
   Iron/80
   lead/45
