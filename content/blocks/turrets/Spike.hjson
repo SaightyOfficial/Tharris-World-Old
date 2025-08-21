@@ -17,6 +17,13 @@ consumes: {
 }
 recoilAmount: 3
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 shootSound: bolt
 
 shootType: {
