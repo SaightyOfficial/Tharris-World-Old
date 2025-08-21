@@ -12,7 +12,8 @@ research: {
     parent: OsmiumWallLarge
     planet: Tharris
     requirements: [
-        Plutonium/250
+        Plutonium/25
     ]
 
   } 
+
