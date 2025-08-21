@@ -32,6 +32,12 @@ size:2
 category: turret
 reload: 15                  //Перезарядка
 //Виды пуль (боеприпасов)
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
 "ammoTypes": {
     "Iron": {
                     type: BasicBulletType
@@ -96,3 +102,4 @@ reload: 15                  //Перезарядка
 }
 
 shootSound: shoot
+
