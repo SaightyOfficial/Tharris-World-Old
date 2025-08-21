@@ -1,5 +1,4 @@
 name: river
-description: Good place to make a base, research helpful units and new core
 captureWave: 15
 difficulty: 3
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
