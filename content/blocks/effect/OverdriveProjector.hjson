@@ -1,8 +1,7 @@
 {
   name: OverdriveProjector
-  localizedName: Overdrive Projector
   type: OverdriveProjector
-  description: Speeds up blocks work radius by 50%
+  description: 
   health: 300
   size: 2
   range: 120
@@ -34,4 +33,5 @@
     PhasePlastic/2500
   ]
         }
+
 }
