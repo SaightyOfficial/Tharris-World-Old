@@ -1,5 +1,4 @@
   name: IronCoveredConveyor
-  localizedName: Iron Covered Conveyor
   category: distribution
   speed: 0.04      //Скорость
   displayedSpeed: 0.4     //Отображаемая скорость
@@ -24,4 +23,5 @@ research: {
         TemperedGlass/150
         silicon/1000
  ]
+
 }
