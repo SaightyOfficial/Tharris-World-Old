@@ -3,8 +3,8 @@
   type: PowerNode
   size: 1
   health: 120
-  maxNodes: 20           // Макс. количество соединений
-  laserRange: 20         // Дальность передачи энергии
+  maxNodes: 15           // Макс. количество соединений
+  laserRange: 15         // Дальность передачи энергии
   laserColor: 84f491     // Цвет лазера (HEX)
   laserWidth: 1.5
   requirements: [
@@ -21,4 +21,5 @@
       graphite/40
     ]
   }
+
 }
