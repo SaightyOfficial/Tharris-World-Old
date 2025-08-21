@@ -1,4 +1,3 @@
-localizedName: Tempered glass
 name: TemperedGlass
 explosiveness: 0
 flammability: 0
@@ -14,4 +13,5 @@ research: {
     root: false
     name: Tempered glass
     parent: Iron
+
 }
