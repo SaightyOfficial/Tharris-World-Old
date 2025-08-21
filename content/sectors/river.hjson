@@ -1,5 +1,4 @@
 name: river
-localizedName: River
 description: Good place to make a base, research helpful units and new core
 captureWave: 15
 difficulty: 3
@@ -12,7 +11,6 @@ sector: 189
 
 research: {
     root: false
-    name: Great passage
     parent: mines
     planet: Tharris
     objectives: [
@@ -21,4 +19,5 @@ research: {
         preset: mines
       } 
     ]
+
 }
