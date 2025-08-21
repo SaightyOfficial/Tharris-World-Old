@@ -1,12 +1,11 @@
 {
   name: AutomaticPump
-  localizedName: Automatic pump
   type: Pump
   health: 100
   size: 1
   category: liquid
 
-  pumpAmount: 0.2
+  pumpAmount: 0.1
   liquidCapacity: 10        // Вместимость
 
   // Требования для постройки
@@ -25,4 +24,5 @@
       graphite/150
     ]
   }
+
 }
