@@ -1,6 +1,5 @@
  type: Drill
   name: ElectroDrill
-  localizedName: Electro Drill
   size: 3
   tier: 3     //Бурит предмет такой прочности
   drillTime: 180      //Время бурения
@@ -52,4 +51,5 @@
         preset: lonelylake
       } 
     ]
+
 }
