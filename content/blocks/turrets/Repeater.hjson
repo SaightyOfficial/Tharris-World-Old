@@ -27,6 +27,13 @@ research: {
 //Тип, радиус атаки, эффект стрельбы
 type: ItemTurret
 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+
 targetAir:false
 targetGround:true
 
@@ -98,6 +105,7 @@ reload: 8                  //Перезарядка
 }
 
 shootSound: blaster
+
 
 
 
