@@ -4,7 +4,7 @@ health: 300
 size: 2
 hasPower: true
 hasItems: true
-liquidCapacity: 0.4
+liquidCapacity: 24
 itemCapacity: 20
 craftTime: 60  
 outputLiquid: cryofluid/0.2
