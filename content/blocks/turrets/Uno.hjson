@@ -1,5 +1,4 @@
 name: Uno
-localizedName: Uno
 requirements: [
 Iron/24
 lead/12
@@ -66,4 +65,5 @@ reload: 40                  //Перезарядка
                     bulletInterval: 3
                    }
 }
+
 shootSound: shoot
