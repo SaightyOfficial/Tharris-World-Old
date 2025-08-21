@@ -1,6 +1,5 @@
 {
   name: TGLiquidJunction
-  localizedName: Liquid Junction
   type: LiquidJunction
   health: 90
   size: 1
@@ -18,4 +17,5 @@
       graphite/150
     ]
   }
+
 }
