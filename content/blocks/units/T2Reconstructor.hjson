@@ -1,4 +1,3 @@
-localizedName: T2 Reconstructor
 Name: T2Reconstructor
 
 type: Reconstructor
@@ -46,4 +45,5 @@ research: {
         preset: stoneplains
       } 
     ]
+
 }
