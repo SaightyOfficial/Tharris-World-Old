@@ -1,6 +1,5 @@
 {
   name: TGLiquidBridge
-  localizedName: Liquid Bridge
   type: LiquidBridge
   health: 90
   size: 1
@@ -19,4 +18,5 @@
       graphite/150
     ]
   }
+
 }
