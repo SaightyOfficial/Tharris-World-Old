@@ -1,5 +1,4 @@
 name: linear
-description: Capture sector to research T3, this sector has realy powerful boss, make good defence
 captureWave: 40
 difficulty: 9
 addStartingItems: false
@@ -21,3 +20,4 @@ research: {
     ]
 
 }
+
