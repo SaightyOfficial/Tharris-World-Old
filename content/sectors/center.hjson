@@ -9,7 +9,7 @@
 
   research: {
     root: false
-    parent: greatpassage
+    parent: nullscapes
     objectives: [
       {
         type: SectorComplete
