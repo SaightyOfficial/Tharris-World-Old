@@ -4,7 +4,7 @@ health: 6250
 size: 5
 
 itemCapacity: 11000
-unitCapModifier: 24 //Skoka unitav
+unitCapModifier: 32 //Skoka unitav
 unitType: "Neutron"
 incinerateNonBuildable: true //Moza stroit?
 isFirstTier: false
@@ -17,3 +17,21 @@ requirements: [
     Plutonium/2500
 ]
 
+research: {
+  parent: CoreProton
+  planet: Tharris
+  requirements: [
+      Iron/22000
+      lead/17500
+      graphite/12500
+      silicon/9500
+      Plutonium/2500
+  ]
+  objectives: [
+      {
+        type: SectorComplete
+        preset: river
+      } 
+  ]
+
+}
