@@ -10,14 +10,15 @@ sector: 91
 
 research: {
     root: false
-    parent: lonelylake
+    parent: bacteriaresearchcenter
     planet: Tharris
     objectives: [
       {
         type: SectorComplete
-        preset: lonelylake
+        preset: bacteriaresearchcenter
       } 
     ]
 
 }
+
 
