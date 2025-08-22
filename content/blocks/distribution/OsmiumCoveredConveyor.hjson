@@ -17,7 +17,7 @@ bridgeReplacement:IronBridge
 
 //К чему привязан
 research: {
-    parent: OsmimConveyor
+    parent: OsmiumConveyor
     planet: Tharris
     requirements: [
         Iron/1250
