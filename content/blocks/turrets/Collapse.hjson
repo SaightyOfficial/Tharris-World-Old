@@ -20,7 +20,7 @@ shootSound: railgun
 shootType: {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 225,
+            "damage": 230,
             serrations: 6
             serrationSpacing: 16
             serrationLenScl: 20
@@ -46,11 +46,11 @@ coolant: {
 }
 
 requirements: [
-  Iron/500
-  lead/350
-  Osmium/200
-  silicon/200
-  PhasePlastic/100
+  Iron/600
+  lead/450
+  Osmium/300
+  silicon/450
+  PhasePlastic/200
 ]
 
 research: {
