@@ -1,1 +1,21 @@
+  planet: Tharris  
+  sector: 52
+  name: center
 
+  difficulty: 15
+  startWaveTimeMultiplier: 3
+  useAI: true
+  addStartingItems: false
+
+  research: {
+    root: false
+    parent: greatpassage
+    objectives: [
+      {
+        type: SectorComplete
+        preset: nullscapes
+      } 
+    ]
+  }
+
+}
