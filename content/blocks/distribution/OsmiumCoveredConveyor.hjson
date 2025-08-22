@@ -2,7 +2,7 @@
   category: distribution
   speed: 0.10      //Скорость
   displayedSpeed: 0.10     //Отображаемая скорость
-  health: 20
+  health: 80
   acceptsItems: true      //Может принимать предметы? Да
   type: ArmoredConveyor
   requirements: [
