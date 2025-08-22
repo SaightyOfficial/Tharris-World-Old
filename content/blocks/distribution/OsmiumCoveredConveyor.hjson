@@ -1,4 +1,4 @@
-  name: IronCoveredConveyor
+  name: OsmiumCoveredConveyor
   category: distribution
   speed: 0.10      //Скорость
   displayedSpeed: 0.10     //Отображаемая скорость
