@@ -20,7 +20,7 @@ shootSound: railgun
 shootType: {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 230,
+            "damage": 250,
             serrations: 6
             serrationSpacing: 16
             serrationLenScl: 20
