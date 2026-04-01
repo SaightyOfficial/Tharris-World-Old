@@ -8,7 +8,7 @@
 "defaultRules": {
     "allowLaunchLoadout": true,
     "loadoutItems": {
-      "*": 0  // Звездочка = все ресурсы без ограничений
+      "*": 0
     }
   }
 
